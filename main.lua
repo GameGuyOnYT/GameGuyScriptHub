@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))() --Gets GUI lib
-local Window = Library.CreateLib("Pet Simulator X Scripts", "Ocean") -- Creates the window
+local Window = Library.CreateLib("GameGuy's Script Hub", "Ocean") -- Creates the window
 
 local UniversalTab = Window:NewTab("Scripts") --Creates new tab
 local UniversalSection1 = UniversalTab:NewSection("General") -- Creates a section in the tab
