@@ -29,7 +29,7 @@ UniversalSection2:NewButton("Funky Friday Autoplayer", "Funky Friday Script", fu
     loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")() --The function called after the button is pressed
 end)
 UniversalSection1:NewButton("Supported Games", "Shows Supported Games.", function() --Creates a button
-    os.execute("start https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/main/supportedgames.txt")
+    shellExecute('https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/main/supportedgames.txt')
 end)
 
 UniversalSection4:NewKeybind("Hide (Default P)", "Hide", Enum.KeyCode.P, function() --Creates a keybind to...
