@@ -24,3 +24,4 @@ label.TextColor3 = Color3.fromRGB(255, 255, 255)
 label.TextScaled = true
 label.TextSize = 14.000
 label.TextWrapped = true
+label.Draggable = true
