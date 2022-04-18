@@ -22,14 +22,14 @@ end)
 UniversalSection3:NewButton("BK Hack", " Executes BK Hack", function() --Creates a button
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))() --The function called after the button is pressed
 end)
-UniversalSection1:NewButton("Soggyware", "Exectes Soggyware", function() --Creates a button
+UniversalSection1:NewButton("Soggyware", "Executes Soggyware", function() --Creates a button
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))() --The function called after the button is pressed
 end)
 UniversalSection2:NewButton("Funky Friday Autoplayer", "Funky Friday Script", function() --Creates a button
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))() --The function called after the button is pressed
+    loadstring(game:HttpGet"(https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))() --The function called after the button is pressed
 end)
 UniversalSection1:NewButton("Supported Games", "Shows Supported Games.", function() --Creates a button
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/main/supportedgames.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/main/supportedgames.lua"))() --The function called after the button is pressed
 end)
 
 UniversalSection4:NewKeybind("Hide (Default P)", "Hide", Enum.KeyCode.P, function() --Creates a keybind to...
