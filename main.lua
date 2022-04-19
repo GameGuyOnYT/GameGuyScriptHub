@@ -25,8 +25,8 @@ end)
 UniversalSection2:NewButton("Funky Friday Autoplayer", "Funky Friday Script", function() --Creates a button
     loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
 end)
-UniversalSection1:NewButton("Supported Games", "Shows Supported Games.", function() --Creates a button
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/main/supportedgames.lua"))() 
+UniversalSection1:NewButton("Supported Games (Click F9 after clicking this)", "Shows Supported Games.", function() --Creates a button
+    print("Normal Scripts : Funky Friday, Pet Simulator X | V.G Hub : https://raw.githubusercontent.com/1201for/Funs-and-Features/main/Features-and-games | Saza Hub : Blox Fruits, Pet Simulator X, Anime Clicker Simulator, Build A Boat, King Legacy, Two Piece | Shiny Tool : Pet Simulator X, Clicker Simulator, Magnet Simulator 2, Pet Legacy, Donate Me Pls, Arsenal | Soggyware : Anime Dimensions, Rebirth Champions X, Tapper Simulator, Anime Clicker Simulator, Anime Tappers, Slap Battles, Farm Life, Clicking Simulator, Burn Everything Simulator, A One Piece Game, Collect All Pets, Untitled Tag Game, Boom Simulator, Pet Simulator X, Chicken Life, Smashing Simulator X, Slashing Simulator, Timber, Big Man Simulator, Tapping Legends X, Pet Legacy")
 end)
 UniversalSection4:NewKeybind("Hide (Default P)", "Hide", Enum.KeyCode.P, function()
 	Library:ToggleUI()
