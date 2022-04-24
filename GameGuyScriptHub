@@ -5,10 +5,11 @@ local UniversalSection1 = UniversalTab:NewSection("General")
 local UniversalSection2 = UniversalTab:NewSection("Funky Friday")
 local UniversalSection3 = UniversalTab:NewSection("Pet Simulator X")
 local UniversalSection4 = UniversalTab:NewSection("Clicker Simulator")
-local UniversalSection5 = UniversalTab:NewSection("Other")
+local UniversalSection5 = UniversalTab:NewSection("Sonic Speed Simulator")
+local UniversalSection6 = UniversalTab:NewSection("Other")
 local UniversalTab = Window:NewTab("Settings")
-local UniversalSection6 = UniversalTab:NewSection("Settings")
-local UniversalSection7 = UniversalTab:NewSection("Credits : Efe Tahça")
+local UniversalSection7 = UniversalTab:NewSection("Settings")
+local UniversalSection8 = UniversalTab:NewSection("Credits : Efe Tahça")
 UniversalSection1:NewButton("Saza Hub", "Executes Saza Hub", function()
     loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
 end)
@@ -30,7 +31,10 @@ end)
 UniversalSection4:NewButton("LaDamage", "Clicker Simulator Script", function() --Creates a button
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
 end)
-UniversalSection5:NewButton("Universal", "A script that works in all games with general functions.", function() --Creates a button
+UniversalSection5:NewButton("Sunken (Open Auto-Exec And Auto Inject)", "Sonic Speed Simulator Script", function() --Creates a button
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/SpeedSonicSimulator',true))()
+end)
+UniversalSection6:NewButton("Universal", "A script that works in all games with general functions.", function() --Creates a button
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("                               Misc GUI  |  By S I L X N C E", "Ocean")
 local Tab = Window:NewTab("Misc")
@@ -72,7 +76,7 @@ Section:NewButton("Infinite Jump", "Unlimited Jumps", function()
     end)
 end)
 
-Section:NewButton("No Clip (Press E to Toggle)", "Walk Through Shit", function()
+Section:NewButton("No Clip (Press E to Toggle)", "Walk Through Stuff", function()
     noclip = false
     game:GetService('RunService').Stepped:connect(function()
     if noclip then
@@ -95,6 +99,6 @@ end)
 UniversalSection1:NewButton("Supported Games (Click F9 after clicking this)", "Shows Supported Games.", function() --Creates a button
     print("Normal Scripts : Funky Friday, Pet Simulator X | V.G Hub : https://raw.githubusercontent.com/1201for/Funs-and-Features/main/Features-and-games | Saza Hub : Blox Fruits, Pet Simulator X, Anime Clicker Simulator, Build A Boat, King Legacy, Two Piece | Shiny Tool : Pet Simulator X, Clicker Simulator, Magnet Simulator 2, Pet Legacy, Donate Me Pls, Arsenal | Soggyware : Anime Dimensions, Rebirth Champions X, Tapper Simulator, Anime Clicker Simulator, Anime Tappers, Slap Battles, Farm Life, Clicking Simulator, Burn Everything Simulator, A One Piece Game, Collect All Pets, Untitled Tag Game, Boom Simulator, Pet Simulator X, Chicken Life, Smashing Simulator X, Slashing Simulator, Timber, Big Man Simulator, Tapping Legends X, Pet Legacy, Sonic Speed Simulator")
 end)
-UniversalSection6:NewKeybind("Hide (Default P)", "Hide", Enum.KeyCode.P, function()
+UniversalSection7:NewKeybind("Hide (Default P)", "Hide", Enum.KeyCode.P, function()
 	Library:ToggleUI()
 end)
