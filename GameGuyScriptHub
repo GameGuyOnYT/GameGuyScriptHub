@@ -31,8 +31,8 @@ end)
 UniversalSection4:NewButton("LaDamage", "Clicker Simulator Script", function() --Creates a button
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
 end)
-UniversalSection5:NewButton("Sunken (Open Auto-Exec And Auto Inject)", "Sonic Speed Simulator Script", function() --Creates a button
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/SpeedSonicSimulator',true))()
+UniversalSection5:NewButton("Skays", "Sonic Speed Simulator Script", function() --Creates a button
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
 end)
 UniversalSection6:NewButton("Universal", "A script that works in all games with general functions.", function() --Creates a button
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
