@@ -2,6 +2,9 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("GameGuy's Script Hub", "Ocean")
 local UniversalTab = Window:NewTab("Scripts")
 local UniversalSection1 = UniversalTab:NewSection("General")
+if game.PlaceId = 9049840490 then
+UniversalSection1:NewLabel("Unsupported Game!")
+end)
 local UniversalSection2 = UniversalTab:NewSection("Funky Friday")
 local UniversalSection3 = UniversalTab:NewSection("Pet Simulator X")
 local UniversalSection4 = UniversalTab:NewSection("Clicker Simulator")
@@ -96,8 +99,8 @@ Section:NewKeybind("Hide (Default U)", "Hide", Enum.KeyCode.U, function()
 end)
 end)
 end)
-UniversalSection1:NewButton("Supported Games (Click F9 after clicking this)", "Shows Supported Games.", function() --Creates a button
-    print("Normal Scripts : Funky Friday, Pet Simulator X | V.G Hub : https://raw.githubusercontent.com/1201for/Funs-and-Features/main/Features-and-games | Saza Hub : Blox Fruits, Pet Simulator X, Anime Clicker Simulator, Build A Boat, King Legacy, Two Piece | Shiny Tool : Pet Simulator X, Clicker Simulator, Magnet Simulator 2, Pet Legacy, Donate Me Pls, Arsenal | Soggyware : Anime Dimensions, Rebirth Champions X, Tapper Simulator, Anime Clicker Simulator, Anime Tappers, Slap Battles, Farm Life, Clicking Simulator, Burn Everything Simulator, A One Piece Game, Collect All Pets, Untitled Tag Game, Boom Simulator, Pet Simulator X, Chicken Life, Smashing Simulator X, Slashing Simulator, Timber, Big Man Simulator, Tapping Legends X, Pet Legacy, Sonic Speed Simulator")
+UniversalSection1:NewButton("Supported Games Are On The GitHub Page", "github.com/GameGuyOnYT/GameGuyScriptHub/SupportedGames", function() --Creates a button
+    return
 end)
 UniversalSection7:NewKeybind("Hide (Default P)", "Hide", Enum.KeyCode.P, function()
 	Library:ToggleUI()
