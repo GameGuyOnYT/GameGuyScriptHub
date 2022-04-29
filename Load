@@ -1,5 +1,5 @@
-if game.PlaceId == 9049840490 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+if game.PlaceId == 9049840490 then
 local Window = Library.CreateLib("Sonic Speed Simulator", "Ocean")
 local Tab = Window:NewTab("Sonic Speed Simulator")
 local a = Tab:NewSection("Sonic Speed Simulator")
@@ -8,7 +8,6 @@ a:NewButton("Sonic Speed Simulator", "Sonic Speed Simulator"))()
 end)
 end
 elseif game.PlaceId == 7560156054 then
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Clicker Simulator", "Ocean")
 local Tab = Window:NewTab("Clicker Simulator")
 local b = Tab:NewSection("Clicker Simulator")
@@ -17,7 +16,6 @@ b:NewButton("Clicker Simulator", "Clicker Simulator", function()
 end)
 end
 elseif game.PlaceId == 6284583030 then
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Pet Simulator X", "Ocean")
 local Tab = Window:NewTab("Pet Simulator X")
 local c = Tab:NewSection("Pet Simulator X")
@@ -26,7 +24,6 @@ c:NewButton("Pet Simulator X", "Pet Simulator X", function()
 end)
 end
 elseif game.PlaceId == 6447798030 then
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Funky Friday", "Ocean")
 local Tab = Window:NewTab("Funky Friday")
 local d = Tab:NewSection("Funky Friday")
