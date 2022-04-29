@@ -1,0 +1,25 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Your Game Is Currently Unsupported, But These Scripts Might.", "Ocean")
+local a = UniversalTab:NewSection("Script Hubs")
+local b = UniversalTab:NewSection("Other")
+a:NewButton("Saza Hub", "Executes Saza Hub", function()
+    loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
+end)
+a:NewButton("V.G Hub", "Executes V.G Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
+end)
+a:NewButton("Shiny Tool", "Executes ShinyTool", function() --Creates a button
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolV2/main/Loader.lua"))()
+end)
+a:NewButton("Soggyware", "Executes Soggyware", function() --Creates a button
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
+end)
+a:NewButton("Supported Games Are On The GitHub", "Useless Button", function() --Creates a button
+    return
+end)
+b:NewButton("Universal", Universal Script", function()
+    loadstring(game:HttpGet("https://paste.ee/r/6rXoq/0",true))()
+end)
+b:NewButton("Dark Dex V4", "Dex Explorer Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceSpiffer/Scripts/main/Script5", true))()
+end)
