@@ -2,8 +2,8 @@ if game.PlaceId == 9049840490 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Sonic Speed Simulator", "Ocean")
 local Tab = Window:NewTab("Sonic Speed Simulator")
-local Section = Tab:NewSection("Sonic Speed Simulator")
-Section:NewButton("Sonic Speed Simulator", "Sonic Speed Simulator"))()
+local a = Tab:NewSection("Sonic Speed Simulator")
+a:NewButton("Sonic Speed Simulator", "Sonic Speed Simulator"))()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
 end)
 end
@@ -11,8 +11,8 @@ elseif game.PlaceId == 7560156054 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Clicker Simulator", "Ocean")
 local Tab = Window:NewTab("Clicker Simulator")
-local Section = Tab:NewSection("Clicker Simulator")
-Section:NewButton("Clicker Simulator", "Clicker Simulator", function()
+local b = Tab:NewSection("Clicker Simulator")
+b:NewButton("Clicker Simulator", "Clicker Simulator", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
 end)
 end
@@ -20,8 +20,8 @@ elseif game.PlaceId == 6284583030 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Pet Simulator X", "Ocean")
 local Tab = Window:NewTab("Pet Simulator X")
-local Section = Tab:NewSection("Pet Simulator X")
-Section:NewButton("Pet Simulator X", "Pet Simulator X", function()
+local c = Tab:NewSection("Pet Simulator X")
+c:NewButton("Pet Simulator X", "Pet Simulator X", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
 end)
 end
@@ -29,8 +29,8 @@ elseif game.PlaceId == 6447798030 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Funky Friday", "Ocean")
 local Tab = Window:NewTab("Funky Friday")
-local Section = Tab:NewSection("Funky Friday")
-Section:NewButton("Funky Friday", "Funky Friday", function()
+local d = Tab:NewSection("Funky Friday")
+d:NewButton("Funky Friday", "Funky Friday", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
 end)
 end
