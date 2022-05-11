@@ -91,9 +91,9 @@ Section:NewButton("No Clip (Press E to Toggle)", "Walk Through Stuff", function(
     game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
     end
     end)
+end)
 Section:NewKeybind("Hide (Default U)", "Hide", Enum.KeyCode.U, function()
 	Library:ToggleUI()
-end)
 end)
 end)
 UniversalSection1:NewButton("Supported Games Are On The GitHub Page", "github.com/GameGuyOnYT/GameGuyScriptHub/SupportedGames", function() --Creates a button
