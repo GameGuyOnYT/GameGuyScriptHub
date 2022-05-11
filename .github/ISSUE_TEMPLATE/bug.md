@@ -25,7 +25,7 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: Windows 11/10 or lower?
-[                   ]
+[]
 
 **Smartphone (please complete the following information):**
  - Device: [e.g. Samsung S22]
