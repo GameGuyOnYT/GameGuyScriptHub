@@ -36,8 +36,8 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-209
 end)
 UniversalSection6:NewButton("Universal", "A script that works in all games with general functions.", function() --Creates a button
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("                               Misc GUI  |  By S I L X N C E", "Ocean")
-local Tab = Window:NewTab("Misc")
+local UniversalWindow = Library.CreateLib("                               Misc GUI  |  By S I L X N C E", "Ocean")
+local Tab = UniversalWindow:NewTab("Misc")
 local Section = Tab:NewSection("Player Modifications")
 
 Section:NewButton("Anti-AFK", "Never get kicked for being idle", function()
@@ -57,7 +57,7 @@ Section:NewSlider("Jump Power", "Modifies the Jump Power", 500, 0, function(s) -
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-Section:NewButton("Ctrl Click Teleport", "I dont know what to put here :p", function()
+Section:NewButton("Ctrl Click Teleport", "Teleport by holding ctrl and clicking where you want to teleport            ", function()
     local Plr = game:GetService("Players").LocalPlayer
     local Mouse = Plr:GetMouse()
     Mouse.Button1Down:connect(function()
@@ -76,21 +76,20 @@ Section:NewButton("Infinite Jump", "Unlimited Jumps", function()
     end)
 end)
 
-Section:NewButton("No Clip (Press E to Toggle)", "Walk Through Stuff", function()
-    noclip = false
-    game:GetService('RunService').Stepped:connect(function()
-    if noclip then
-    game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
-    end
-    end)
-    plr = game.Players.LocalPlayer
-    mouse = plr:GetMouse()
-    mouse.KeyDown:connect(function(key)
-    if key == "e" then
-    noclip = not noclip
-    game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
-    end
-    end)
+Section:NewKeybind("NoClip (Default E)", "Walk through walls", Enum.KeyCode.P, function()
+	noclip = false
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+noclip = not noclip
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
 end)
 Section:NewKeybind("Hide (Default U)", "Hide", Enum.KeyCode.U, function()
 	Library:ToggleUI()
