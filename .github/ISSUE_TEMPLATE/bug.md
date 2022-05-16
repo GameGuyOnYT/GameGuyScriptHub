@@ -31,5 +31,6 @@ If applicable, add screenshots to help explain your problem.
  - Device: [e.g. Samsung S22]
  - OS: [e.g. Android 12]
 
-**Additional context [NOT REQUIRED] **
+**Additional context [NOT REQUIRED]**
+
 Add any other context about the problem here.
