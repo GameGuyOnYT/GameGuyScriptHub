@@ -1,7 +1,7 @@
 ---
 name: Bug
 about: Tell us what you're experiencing.
-title: ''
+title: '[BUG]'
 labels: Bug
 assignees: GameGuyOnYT
 
