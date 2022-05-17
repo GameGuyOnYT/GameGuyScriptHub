@@ -77,17 +77,9 @@ Section:NewButton("Infinite Jump", "Unlimited Jumps", function()
 end)
 
 Section:NewKeybind("NoClip (Default E)", "Walk through walls", Enum.KeyCode.E, function()
-	noclip = false
-game:GetService('RunService').Stepped:connect(function()
-if noclip then
-game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
-end
-end)
-plr = game.Players.LocalPlayer
-mouse = plr:GetMouse()
-mouse.KeyDown:connect(function(key)
-noclip = not noclip
-game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+game:getService("RunService"):BindToRenderStep("",0,function()
+if not game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid") then return end
+game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid"):ChangeState(11)
 end
 end)
 end)
