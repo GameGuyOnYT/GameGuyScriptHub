@@ -6,10 +6,11 @@ local UniversalSection2 = UniversalTab:NewSection("Funky Friday")
 local UniversalSection3 = UniversalTab:NewSection("Pet Simulator X")
 local UniversalSection4 = UniversalTab:NewSection("Clicker Simulator")
 local UniversalSection5 = UniversalTab:NewSection("Sonic Speed Simulator")
-local UniversalSection6 = UniversalTab:NewSection("Other")
+local UniversalSection6 = UniversalTab:NewSection("Raise A Floppa")
+local UniversalSection7 = UniversalTab:NewSection("Other")
 local UniversalTab = Window:NewTab("Settings")
-local UniversalSection7 = UniversalTab:NewSection("Settings")
-local UniversalSection8 = UniversalTab:NewSection("Credits : Efe Tahça")
+local UniversalSection8 = UniversalTab:NewSection("Settings")
+local UniversalSection9 = UniversalTab:NewSection("Credits : Efe Tahça")
 UniversalSection1:NewButton("Saza Hub (Anti-AFK)", "Executes Saza Hub", function()
     loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
 end)
@@ -34,7 +35,12 @@ end)
 UniversalSection5:NewButton("Skays", "Sonic Speed Simulator Script", function() --Creates a button
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
 end)
-UniversalSection6:NewButton("Universal", "A script that works in all games with general functions.", function() --Creates a button
+UniversalSection6:NewButton("RIP", "Raise A Floppa Script", function() --Creates a button
+_G.RedGUI = false
+_G.Theme = "Dark"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua"))()
+end)
+UniversalSection7:NewButton("Universal", "A script that works in all games with general functions.", function() --Creates a button
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local UniversalWindow = Library.CreateLib("Misc GUI", "Serpent")
 local Tab = UniversalWindow:NewTab("Misc")
@@ -90,6 +96,6 @@ end)
 UniversalSection1:NewButton("Supported Games Are On The GitHub Page", "github.com/GameGuyOnYT/GameGuyScriptHub/SupportedGames", function() --Creates a button
     return
 end)
-UniversalSection7:NewKeybind("Hide (Default P)", "Hide", Enum.KeyCode.P, function()
+UniversalSection8:NewKeybind("Hide (Default P)", "Hide", Enum.KeyCode.P, function()
 	Library:ToggleUI()
 end)
