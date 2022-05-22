@@ -11,34 +11,48 @@ local UniversalSection7 = UniversalTab:NewSection("Other")
 local UniversalTab = Window:NewTab("Settings")
 local UniversalSection8 = UniversalTab:NewSection("Settings")
 local UniversalSection9 = UniversalTab:NewSection("Credits : Efe Tahça")
+print("Done!")
 UniversalSection1:NewButton("Saza Hub (Anti-AFK)", "Executes Saza Hub", function()
     loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
+    print("Done!")
 end)
 UniversalSection1:NewButton("V.G Hub", "Executes V.G Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
+    print("Done!")
 end)
 UniversalSection1:NewButton("Shiny Tool", "Executes ShinyTool", function() --Creates a button
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolV2/main/Loader.lua"))()
+    print("Done!")
 end)
 UniversalSection3:NewButton("BK Hack", " Executes BK Hack", function() --Creates a button
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+    print("Done!")
 end)
 UniversalSection1:NewButton("Soggyware", "Executes Soggyware", function() --Creates a button
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
+    print("Done!")
 end)
 UniversalSection2:NewButton("Funky Friday Autoplayer", "Funky Friday Script", function() --Creates a button
     loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+    print("Done!")
 end)
 UniversalSection4:NewButton("LaDamage", "Clicker Simulator Script", function() --Creates a button
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
+    print("Done!")
 end)
 UniversalSection5:NewButton("Skays", "Sonic Speed Simulator Script", function() --Creates a button
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
+print("Done!")
+end)
+UniversalSection5:NewButton("Phantom Software", "Sonic Speed Simulator Script", function() --Creates a button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+print("Done!")
 end)
 UniversalSection6:NewButton("RIP", "Raise A Floppa Script", function() --Creates a button
 _G.RedGUI = false
 _G.Theme = "Dark"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua"))()
+print("Done!")
 end)
 UniversalSection7:NewButton("Universal", "A script that works in all games with general functions.", function() --Creates a button
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -92,10 +106,13 @@ end)
 Section:NewKeybind("Hide (Default U)", "Hide", Enum.KeyCode.U, function()
 	Library:ToggleUI()
 end)
+print("Done!")
 end)
 UniversalSection1:NewButton("Supported Games Are On The GitHub Page", "github.com/GameGuyOnYT/GameGuyScriptHub/SupportedGames", function() --Creates a button
     return
+    print("Done!")
 end)
 UniversalSection8:NewKeybind("Hide (Default P)", "Hide", Enum.KeyCode.P, function()
 	Library:ToggleUI()
+	print("Done!")
 end)
