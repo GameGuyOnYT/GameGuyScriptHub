@@ -4,32 +4,32 @@ local CandyClickingSimulator = Window:NewSection("Candy Clicking Simulator")
 local ClickerMadness = Window:NewSection("Clicker Madness")
 CandyClickingSimulator:NewToggle("Auto Click", "Clicks automatically for you.", function(state)
     if state then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/CandyClickingSimulator/openAutoClick.lua"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/CandyClickingSimulator/openAutoClick.lua"))
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/CandyClickingSimulator/closeAutoClick.lua"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/CandyClickingSimulator/closeAutoClick.lua"))
     end
 end)
 CandyClickingSimulator:NewButton("Redeem All Codes", "Redeems all of the codes in-game.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/CandyClickingSimulator/AutoCode.lua"))
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/CandyClickingSimulator/AutoCode.lua"))
 end)
 ClickerMadness:NewToggle("Auto Click", "Clicks automatically for you.", function(state)
     if state then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/ClickerMadness/openAutoClick.lua"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/ClickerMadness/openAutoClick.lua"))
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/ClickerMadness/closeAutoClick.lua"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/ClickerMadness/closeAutoClick.lua"))
     end
 end)
 ClickerMadness:NewToggle("Auto Rebirth", "Rebirths automatically for you.", function(state)
     if state then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/ClickerMadness/openAutoClick.lua"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/ClickerMadness/openAutoClick.lua"))
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/ClickerMadness/closeAutoClick.lua"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/ClickerMadness/closeAutoClick.lua"))
     end
 end)
 ClickerMadness:NewToggle("Auto Chest", "Opens chests automatically for you.", function(state)
     if state then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/ClickerMadness/openAutoClick.lua"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/ClickerMadness/openAutoClick.lua"))
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/ClickerMadness/closeAutoClick.lua"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/ClickerMadness/closeAutoClick.lua"))
     end
 end)
