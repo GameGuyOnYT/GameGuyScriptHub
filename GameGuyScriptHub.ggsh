@@ -1,0 +1,201 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ImageButton = Instance.new("ImageButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local ScreenGui_2 = Instance.new("ScreenGui")
+local TextButton_8 = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.350
+Frame.Position = UDim2.new(0.188149691, 0, 0.161888689, 0)
+Frame.Size = UDim2.new(0.623700619, 0, 0.674536228, 0)
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundTransparency = 0.750
+TextLabel.Position = UDim2.new(-0.000183641911, 0, -0.000611290336, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.0625000075, 0)
+TextLabel.Font = Enum.Font.Nunito
+TextLabel.Text = "GameGuyScriptHub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+
+ImageButton.Parent = TextLabel
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.Position = UDim2.new(0.958333313, 0, -3.05175746e-07, 0)
+ImageButton.Size = UDim2.new(0.0416666679, 0, 0.99999994, 0)
+ImageButton.Image = "rbxassetid://5640334062"
+ImageButton.ImageColor3 = Color3.fromRGB(255, 0, 0)
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0.0199999996, 0, 0.0929999948, 0)
+ScrollingFrame.Size = UDim2.new(0.959999979, 0, 0.870000064, 0)
+
+UIGridLayout.Parent = ScrollingFrame
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BackgroundTransparency = 0.750
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.Nunito
+TextButton.Text = "Infinite Yield"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextStrokeTransparency = 0.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BackgroundTransparency = 0.750
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.Nunito
+TextButton_2.Text = "Funky Friday"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextStrokeTransparency = 0.000
+TextButton_2.TextWrapped = true
+TextButton_2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+end)
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BackgroundTransparency = 0.750
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.Nunito
+TextButton_3.Text = "Saza Hub"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextStrokeTransparency = 0.000
+TextButton_3.TextWrapped = true
+TextButton_3.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/ScriptLoader.saza"))()
+end)
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BackgroundTransparency = 0.750
+TextButton_4.Position = UDim2.new(-0.572916687, 0, 0.141249999, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Font = Enum.Font.Nunito
+TextButton_4.Text = "V.G Hub"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextStrokeTransparency = 0.000
+TextButton_4.TextWrapped = true
+TextButton_4.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
+end)
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BackgroundTransparency = 0.750
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.Nunito
+TextButton_5.Text = "SoggyWare"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextStrokeTransparency = 0.000
+TextButton_5.TextWrapped = true
+TextButton_5.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
+end)
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BackgroundTransparency = 0.750
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.Nunito
+TextButton_6.Text = "PJM"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextStrokeTransparency = 0.000
+TextButton_6.TextWrapped = true
+TextButton_6.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Project-Meow_421"))()
+end)
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BackgroundTransparency = 0.750
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.Nunito
+TextButton_7.Text = "Phantom Hub"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextStrokeTransparency = 0.000
+TextButton_7.TextWrapped = true
+TextButton_7.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
+
+ScreenGui_2.Parent = ScreenGui
+ScreenGui_2.Enabled = false
+ScreenGui_2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextButton_8.Parent = ScreenGui_2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BackgroundTransparency = 0.500
+TextButton_8.Position = UDim2.new(0, 0, 0.0758853331, 0)
+TextButton_8.Size = UDim2.new(0.0571725555, 0, 0.118279569, 0)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "GGSH"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextStrokeTransparency = 0.000
+TextButton_8.TextWrapped = true
+
+local function HCAG_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Parent.ScreenGui.Enabled = true
+	end)
+end
+coroutine.wrap(HCAG_fake_script)()
+local function OPDXMZP_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.Text = "GG\nSH"
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Enabled = true
+	end)
+end
+coroutine.wrap(OPDXMZP_fake_script)()
