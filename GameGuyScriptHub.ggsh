@@ -52,6 +52,7 @@ ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.Position = UDim2.new(0.0199999996, 0, 0.0929999948, 0)
 ScrollingFrame.Size = UDim2.new(0.959999979, 0, 0.870000064, 0)
+ScrollingFrame.Draggable = true
 
 UIGridLayout.Parent = ScrollingFrame
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
