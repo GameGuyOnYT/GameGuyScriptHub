@@ -1,202 +1,829 @@
-local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
+local GGSH = Instance.new("ScreenGui")
+local Minimized = Instance.new("ScreenGui")
+local Minimized_2 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
+local Universal = Instance.new("ScreenGui")
+local Universal_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
 local ImageButton = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local UniversalTab = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local ScriptsTab = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
 local ScrollingFrame = Instance.new("ScrollingFrame")
+local JumpPower = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local WalkSpeed = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local Enable = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Disable = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Scripts = Instance.new("ScreenGui")
+local Scripts_2 = Instance.new("Frame")
+local TopLabel = Instance.new("TextLabel")
+local XButton = Instance.new("ImageButton")
+local UICorner_15 = Instance.new("UICorner")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
 local UIGridLayout = Instance.new("UIGridLayout")
-local TextButton = Instance.new("TextButton")
-local TextButton_2 = Instance.new("TextButton")
-local TextButton_3 = Instance.new("TextButton")
-local TextButton_4 = Instance.new("TextButton")
-local TextButton_5 = Instance.new("TextButton")
-local TextButton_6 = Instance.new("TextButton")
-local TextButton_7 = Instance.new("TextButton")
-local ScreenGui_2 = Instance.new("ScreenGui")
-local TextButton_8 = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local FunkyFriday = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local VGHub = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local SoggyWare = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local PJM = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local PhantomHub = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local RIP = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local UICorner_23 = Instance.new("UICorner")
+local ScriptsTab_2 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local UniversalTab_2 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
 
-ScreenGui.Parent = game.CoreGui
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BackgroundTransparency = 0.350
-Frame.Position = UDim2.new(0.188149691, 0, 0.161888689, 0)
-Frame.Size = UDim2.new(0.623700619, 0, 0.674536228, 0)
-Frame.Active = true
-Frame.Draggable = true
 
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BackgroundTransparency = 0.750
-TextLabel.Position = UDim2.new(-0.000183641911, 0, -0.000611290336, 0)
-TextLabel.Size = UDim2.new(1, 0, 0.0625000075, 0)
+GGSH.Name = "GGSH"
+GGSH.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Minimized.Name = "Minimized"
+Minimized.Parent = GGSH
+Minimized.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Minimized_2.Name = "Minimized"
+Minimized_2.Parent = Minimized
+Minimized_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimized_2.BackgroundTransparency = 0.500
+Minimized_2.BorderSizePixel = 0
+Minimized_2.Position = UDim2.new(-0.00607902743, 0, 0.203662783, 0)
+Minimized_2.Size = UDim2.new(0.0911854133, 0, 0.130813956, 0)
+Minimized_2.ZIndex = 2
+Minimized_2.Font = Enum.Font.GothamMedium
+Minimized_2.Text = ""
+Minimized_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimized_2.TextScaled = true
+Minimized_2.TextSize = 14.000
+Minimized_2.TextWrapped = true
+
+UICorner.Parent = Minimized_2
+
+TextLabel.Parent = Minimized_2
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.533333361, 0, 0.488782257, 0)
+TextLabel.Size = UDim2.new(0.933333397, 0, 0.977991045, 0)
+TextLabel.ZIndex = 2
 TextLabel.Font = Enum.Font.Nunito
-TextLabel.Text = "GameGuyScriptHub"
+TextLabel.Text = "GGSH"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextStrokeTransparency = 0.000
 TextLabel.TextWrapped = true
 
-ImageButton.Parent = TextLabel
+Universal.Name = "Universal"
+Universal.Parent = GGSH
+Universal.Enabled = false
+Universal.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Universal_2.Name = "Universal"
+Universal_2.Parent = Universal
+Universal_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Universal_2.BackgroundTransparency = 0.350
+Universal_2.Position = UDim2.new(0.187999994, 0, 0.162, 0)
+Universal_2.Size = UDim2.new(0.624000013, 0, 0.675000012, 0)
+
+TextLabel_2.Parent = Universal_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BackgroundTransparency = 0.750
+TextLabel_2.Position = UDim2.new(-0.000183641911, 0, -0.000611290336, 0)
+TextLabel_2.Size = UDim2.new(1, 0, 0.0625000075, 0)
+TextLabel_2.Font = Enum.Font.Nunito
+TextLabel_2.Text = "GameGuyScriptHub"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextWrapped = true
+
+ImageButton.Parent = TextLabel_2
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.BackgroundTransparency = 1.000
 ImageButton.Position = UDim2.new(0.958333313, 0, -3.05175746e-07, 0)
-ImageButton.Size = UDim2.new(0.0416666679, 0, 0.99999994, 0)
+ImageButton.Size = UDim2.new(0.0416666679, 0, 0.999999881, 0)
 ImageButton.Image = "rbxassetid://5640334062"
 ImageButton.ImageColor3 = Color3.fromRGB(255, 0, 0)
+ImageButton.ScaleType = Enum.ScaleType.Fit
 
-ScrollingFrame.Parent = Frame
+UICorner_2.CornerRadius = UDim.new(0, 12)
+UICorner_2.Parent = TextLabel_2
+
+UICorner_3.CornerRadius = UDim.new(0, 12)
+UICorner_3.Parent = Universal_2
+
+UniversalTab.Name = "UniversalTab"
+UniversalTab.Parent = Universal_2
+UniversalTab.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+UniversalTab.BackgroundTransparency = 0.750
+UniversalTab.BorderSizePixel = 0
+UniversalTab.Position = UDim2.new(0.4967511, 0, 0.0776598752, 0)
+UniversalTab.Size = UDim2.new(0.461122811, 0, 0.0473729558, 0)
+UniversalTab.ZIndex = 2
+UniversalTab.Font = Enum.Font.GothamMedium
+UniversalTab.Text = ""
+UniversalTab.TextColor3 = Color3.fromRGB(255, 255, 255)
+UniversalTab.TextScaled = true
+UniversalTab.TextSize = 14.000
+UniversalTab.TextWrapped = true
+
+UICorner_4.Parent = UniversalTab
+
+TextLabel_3.Parent = UniversalTab
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.497179478, 0, 0.463746846, 0)
+TextLabel_3.Size = UDim2.new(0.996903658, 0, 0.990101218, 0)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.Nunito
+TextLabel_3.Text = "Universal"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+ScriptsTab.Name = "ScriptsTab"
+ScriptsTab.Parent = Universal_2
+ScriptsTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsTab.BackgroundTransparency = 0.750
+ScriptsTab.BorderSizePixel = 0
+ScriptsTab.Position = UDim2.new(0.0199999996, 0, 0.0780000016, 0)
+ScriptsTab.Size = UDim2.new(0.461122811, 0, 0.0473729558, 0)
+ScriptsTab.ZIndex = 2
+ScriptsTab.Font = Enum.Font.GothamMedium
+ScriptsTab.Text = ""
+ScriptsTab.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsTab.TextScaled = true
+ScriptsTab.TextSize = 14.000
+ScriptsTab.TextWrapped = true
+
+UICorner_5.Parent = ScriptsTab
+
+TextLabel_4.Parent = ScriptsTab
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.498451769, 0, 0.463746846, 0)
+TextLabel_4.Size = UDim2.new(0.996903658, 0, 0.990101218, 0)
+TextLabel_4.ZIndex = 2
+TextLabel_4.Font = Enum.Font.Nunito
+TextLabel_4.Text = "Scripts"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ScrollingFrame.Parent = Universal_2
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BackgroundTransparency = 1.000
-ScrollingFrame.Position = UDim2.new(0.0199999996, 0, 0.0929999948, 0)
-ScrollingFrame.Size = UDim2.new(0.959999979, 0, 0.870000064, 0)
-ScrollingFrame.Draggable = true
+ScrollingFrame.Position = UDim2.new(0.0199999996, 0, 0.147690341, 0)
+ScrollingFrame.Size = UDim2.new(0.959999919, 0, 0.815309763, 0)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 2.5999999, 0)
 
-UIGridLayout.Parent = ScrollingFrame
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = ScrollingFrame
+JumpPower.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower.BackgroundTransparency = 0.750
+JumpPower.Size = UDim2.new(0.961000025, 0, 0.175999999, 0)
+
+UICorner_6.CornerRadius = UDim.new(0, 12)
+UICorner_6.Parent = JumpPower
+
+TextBox.Parent = JumpPower
+TextBox.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextBox.BackgroundTransparency = 0.500
+TextBox.Position = UDim2.new(0.0187074821, 0, 0.170754775, 0)
+TextBox.Size = UDim2.new(0.963028193, 0, 0.764150918, 0)
+TextBox.Font = Enum.Font.Nunito
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.PlaceholderText = "Input must be all numbers!"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextStrokeTransparency = 0.000
+TextBox.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 12)
+UICorner_7.Parent = TextBox
+
+TextLabel_5.Parent = JumpPower
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextLabel_5.BackgroundTransparency = 0.500
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(0.0187074821, 0, 0.0439245105, 0)
+TextLabel_5.Size = UDim2.new(0.961267591, 0, 0.0990566015, 0)
+TextLabel_5.Font = Enum.Font.Nunito
+TextLabel_5.Text = "Jump Power"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextStrokeTransparency = 0.000
+TextLabel_5.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 12)
+UICorner_8.Parent = TextLabel_5
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = ScrollingFrame
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeed.BackgroundTransparency = 0.750
+WalkSpeed.Position = UDim2.new(-0.00169132499, 0, 0.18468827, 0)
+WalkSpeed.Size = UDim2.new(0.961000025, 0, 0.175999999, 0)
+
+UICorner_9.CornerRadius = UDim.new(0, 12)
+UICorner_9.Parent = WalkSpeed
+
+TextBox_2.Parent = WalkSpeed
+TextBox_2.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextBox_2.BackgroundTransparency = 0.500
+TextBox_2.Position = UDim2.new(0.0187074821, 0, 0.170754775, 0)
+TextBox_2.Size = UDim2.new(0.963028193, 0, 0.764150918, 0)
+TextBox_2.Font = Enum.Font.Nunito
+TextBox_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.PlaceholderText = "Input must be all numbers!"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextStrokeTransparency = 0.000
+TextBox_2.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 12)
+UICorner_10.Parent = TextBox_2
+
+TextLabel_6.Parent = WalkSpeed
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextLabel_6.BackgroundTransparency = 0.500
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.Position = UDim2.new(0.0187074821, 0, 0.0439245105, 0)
+TextLabel_6.Size = UDim2.new(0.961267591, 0, 0.0990566015, 0)
+TextLabel_6.Font = Enum.Font.Nunito
+TextLabel_6.Text = "Walk Speed"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeTransparency = 0.000
+TextLabel_6.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 12)
+UICorner_11.Parent = TextLabel_6
+
+Frame.Parent = ScrollingFrame
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.750
+Frame.Position = UDim2.new(-0.00169132499, 0, 0.369295627, 0)
+Frame.Size = UDim2.new(0.961000025, 0, 0.175999999, 0)
+
+UICorner_12.CornerRadius = UDim.new(0, 12)
+UICorner_12.Parent = Frame
+
+Enable.Name = "Enable"
+Enable.Parent = Frame
+Enable.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+Enable.BackgroundTransparency = 0.500
+Enable.Position = UDim2.new(0.0193661973, 0, 0.0566037744, 0)
+Enable.Size = UDim2.new(0.470070422, 0, 0.891509414, 0)
+Enable.Font = Enum.Font.Nunito
+Enable.Text = "Enable Infinite Jump"
+Enable.TextColor3 = Color3.fromRGB(255, 255, 255)
+Enable.TextScaled = true
+Enable.TextSize = 14.000
+Enable.TextStrokeTransparency = 0.000
+Enable.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 12)
+UICorner_13.Parent = Enable
+
+Disable.Name = "Disable"
+Disable.Parent = Frame
+Disable.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+Disable.BackgroundTransparency = 0.500
+Disable.Position = UDim2.new(0.518126786, 0, 0.0519999377, 0)
+Disable.Size = UDim2.new(0.464788735, 0, 0.891509414, 0)
+Disable.Font = Enum.Font.Nunito
+Disable.Text = "Disable Infinite Jump"
+Disable.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable.TextScaled = true
+Disable.TextSize = 14.000
+Disable.TextStrokeTransparency = 0.000
+Disable.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 12)
+UICorner_14.Parent = Disable
+
+Scripts.Name = "Scripts"
+Scripts.Parent = GGSH
+Scripts.Enabled = false
+
+Scripts_2.Name = "Scripts"
+Scripts_2.Parent = Scripts
+Scripts_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scripts_2.BackgroundTransparency = 0.350
+Scripts_2.BorderSizePixel = 0
+Scripts_2.Position = UDim2.new(0.188149691, 0, 0.161888689, 0)
+Scripts_2.Size = UDim2.new(0.623700619, 0, 0.674536228, 0)
+
+TopLabel.Name = "TopLabel"
+TopLabel.Parent = Scripts_2
+TopLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopLabel.BackgroundTransparency = 0.750
+TopLabel.Position = UDim2.new(-0.000183641911, 0, -0.000611290336, 0)
+TopLabel.Size = UDim2.new(1, 0, 0.0625000075, 0)
+TopLabel.Font = Enum.Font.Nunito
+TopLabel.Text = "GameGuyScriptHub"
+TopLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TopLabel.TextScaled = true
+TopLabel.TextSize = 14.000
+TopLabel.TextStrokeTransparency = 0.000
+TopLabel.TextWrapped = true
+
+XButton.Name = "XButton"
+XButton.Parent = TopLabel
+XButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+XButton.BackgroundTransparency = 1.000
+XButton.Position = UDim2.new(0.958333313, 0, -3.05175746e-07, 0)
+XButton.Size = UDim2.new(0.0416666679, 0, 0.999999881, 0)
+XButton.Image = "rbxassetid://5640334062"
+XButton.ImageColor3 = Color3.fromRGB(255, 0, 0)
+XButton.ScaleType = Enum.ScaleType.Fit
+
+UICorner_15.CornerRadius = UDim.new(0, 12)
+UICorner_15.Parent = TopLabel
+
+ScrollingFrame_2.Parent = Scripts_2
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.Position = UDim2.new(0.0199999996, 0, 0.147690341, 0)
+ScrollingFrame_2.Size = UDim2.new(0.959999979, 0, 0.815309763, 0)
+
+UIGridLayout.Parent = ScrollingFrame_2
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
 
-TextButton.Parent = ScrollingFrame
-TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BackgroundTransparency = 0.750
-TextButton.Size = UDim2.new(0, 200, 0, 50)
-TextButton.Font = Enum.Font.Nunito
-TextButton.Text = "Infinite Yield"
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextStrokeTransparency = 0.000
-TextButton.TextWrapped = true
-TextButton.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = ScrollingFrame_2
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BackgroundTransparency = 0.750
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(2.93666625, 0, 2.07411814, 0)
+InfiniteYield.Size = UDim2.new(0, 389, 0, 352)
+InfiniteYield.ZIndex = 2
+InfiniteYield.Font = Enum.Font.GothamMedium
+InfiniteYield.Text = ""
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 14.000
+InfiniteYield.TextWrapped = true
+InfiniteYield.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-TextButton_2.Parent = ScrollingFrame
-TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.BackgroundTransparency = 0.750
-TextButton_2.Size = UDim2.new(0, 200, 0, 50)
-TextButton_2.Font = Enum.Font.Nunito
-TextButton_2.Text = "Funky Friday"
-TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_2.TextScaled = true
-TextButton_2.TextSize = 14.000
-TextButton_2.TextStrokeTransparency = 0.000
-TextButton_2.TextWrapped = true
-TextButton_2.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+UICorner_16.CornerRadius = UDim.new(0, 12)
+UICorner_16.Parent = InfiniteYield
+
+TextLabel_7.Parent = InfiniteYield
+TextLabel_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_7.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_7.ZIndex = 2
+TextLabel_7.Font = Enum.Font.Nunito
+TextLabel_7.Text = "Infinite Yield"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+FunkyFriday.Name = "Funky Friday"
+FunkyFriday.Parent = ScrollingFrame_2
+FunkyFriday.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FunkyFriday.BackgroundTransparency = 0.750
+FunkyFriday.BorderSizePixel = 0
+FunkyFriday.Position = UDim2.new(2.93666625, 0, 2.07411814, 0)
+FunkyFriday.Size = UDim2.new(0, 389, 0, 352)
+FunkyFriday.ZIndex = 2
+FunkyFriday.Font = Enum.Font.GothamMedium
+FunkyFriday.Text = ""
+FunkyFriday.TextColor3 = Color3.fromRGB(255, 255, 255)
+FunkyFriday.TextScaled = true
+FunkyFriday.TextSize = 14.000
+FunkyFriday.TextWrapped = true
+FunkyFriday.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
 end)
 
-TextButton_3.Parent = ScrollingFrame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.BackgroundTransparency = 0.750
-TextButton_3.Size = UDim2.new(0, 200, 0, 50)
-TextButton_3.Font = Enum.Font.Nunito
-TextButton_3.Text = "Saza Hub"
-TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 14.000
-TextButton_3.TextStrokeTransparency = 0.000
-TextButton_3.TextWrapped = true
-TextButton_3.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/ScriptLoader.saza"))()
+UICorner_17.CornerRadius = UDim.new(0, 12)
+UICorner_17.Parent = FunkyFriday
+
+TextLabel_8.Parent = FunkyFriday
+TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_8.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_8.ZIndex = 2
+TextLabel_8.Font = Enum.Font.Nunito
+TextLabel_8.Text = "Funky Friday"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+VGHub.Name = "VG Hub"
+VGHub.Parent = ScrollingFrame_2
+VGHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+VGHub.BackgroundTransparency = 0.750
+VGHub.BorderSizePixel = 0
+VGHub.Position = UDim2.new(2.93666625, 0, 2.07411814, 0)
+VGHub.Size = UDim2.new(0, 389, 0, 352)
+VGHub.ZIndex = 2
+VGHub.Font = Enum.Font.GothamMedium
+VGHub.Text = ""
+VGHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+VGHub.TextScaled = true
+VGHub.TextSize = 14.000
+VGHub.TextWrapped = true
+VGHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
 
-TextButton_4.Parent = ScrollingFrame
-TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.BackgroundTransparency = 0.750
-TextButton_4.Position = UDim2.new(-0.572916687, 0, 0.141249999, 0)
-TextButton_4.Size = UDim2.new(0, 200, 0, 50)
-TextButton_4.Font = Enum.Font.Nunito
-TextButton_4.Text = "V.G Hub"
-TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextStrokeTransparency = 0.000
-TextButton_4.TextWrapped = true
-TextButton_4.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
-end)
+UICorner_18.CornerRadius = UDim.new(0, 12)
+UICorner_18.Parent = VGHub
 
-TextButton_5.Parent = ScrollingFrame
-TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_5.BackgroundTransparency = 0.750
-TextButton_5.Size = UDim2.new(0, 200, 0, 50)
-TextButton_5.Font = Enum.Font.Nunito
-TextButton_5.Text = "SoggyWare"
-TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_5.TextScaled = true
-TextButton_5.TextSize = 14.000
-TextButton_5.TextStrokeTransparency = 0.000
-TextButton_5.TextWrapped = true
-TextButton_5.MouseButton1Click:Connect(function()
+TextLabel_9.Parent = VGHub
+TextLabel_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_9.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_9.ZIndex = 2
+TextLabel_9.Font = Enum.Font.Nunito
+TextLabel_9.Text = "V.G Hub"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+SoggyWare.Name = "SoggyWare"
+SoggyWare.Parent = ScrollingFrame_2
+SoggyWare.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SoggyWare.BackgroundTransparency = 0.750
+SoggyWare.BorderSizePixel = 0
+SoggyWare.Position = UDim2.new(2.93666625, 0, 2.07411814, 0)
+SoggyWare.Size = UDim2.new(0, 389, 0, 352)
+SoggyWare.ZIndex = 2
+SoggyWare.Font = Enum.Font.GothamMedium
+SoggyWare.Text = ""
+SoggyWare.TextColor3 = Color3.fromRGB(255, 255, 255)
+SoggyWare.TextScaled = true
+SoggyWare.TextSize = 14.000
+SoggyWare.TextWrapped = true
+SoggyWare.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
 end)
 
-TextButton_6.Parent = ScrollingFrame
-TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_6.BackgroundTransparency = 0.750
-TextButton_6.Size = UDim2.new(0, 200, 0, 50)
-TextButton_6.Font = Enum.Font.Nunito
-TextButton_6.Text = "PJM"
-TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_6.TextScaled = true
-TextButton_6.TextSize = 14.000
-TextButton_6.TextStrokeTransparency = 0.000
-TextButton_6.TextWrapped = true
-TextButton_6.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://rawscripts.net/raw/Project-Meow_421"))()
+TextLabel_10.Parent = SoggyWare
+TextLabel_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_10.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_10.ZIndex = 2
+TextLabel_10.Font = Enum.Font.Nunito
+TextLabel_10.Text = "Soggy Ware"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 12)
+UICorner_19.Parent = SoggyWare
+
+PJM.Name = "PJM"
+PJM.Parent = ScrollingFrame_2
+PJM.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PJM.BackgroundTransparency = 0.750
+PJM.BorderSizePixel = 0
+PJM.Position = UDim2.new(2.93666625, 0, 2.07411814, 0)
+PJM.Size = UDim2.new(0, 389, 0, 352)
+PJM.ZIndex = 2
+PJM.Font = Enum.Font.GothamMedium
+PJM.Text = ""
+PJM.TextColor3 = Color3.fromRGB(255, 255, 255)
+PJM.TextScaled = true
+PJM.TextSize = 14.000
+PJM.TextWrapped = true
+PJM.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
 end)
 
-TextButton_7.Parent = ScrollingFrame
-TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_7.BackgroundTransparency = 0.750
-TextButton_7.Size = UDim2.new(0, 200, 0, 50)
-TextButton_7.Font = Enum.Font.Nunito
-TextButton_7.Text = "Phantom Hub"
-TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_7.TextScaled = true
-TextButton_7.TextSize = 14.000
-TextButton_7.TextStrokeTransparency = 0.000
-TextButton_7.TextWrapped = true
-TextButton_7.MouseButton1Click:Connect(function()
+UICorner_20.CornerRadius = UDim.new(0, 12)
+UICorner_20.Parent = PJM
+
+TextLabel_11.Parent = PJM
+TextLabel_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_11.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_11.ZIndex = 2
+TextLabel_11.Font = Enum.Font.Nunito
+TextLabel_11.Text = "PJM"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+PhantomHub.Name = "Phantom Hub"
+PhantomHub.Parent = ScrollingFrame_2
+PhantomHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PhantomHub.BackgroundTransparency = 0.750
+PhantomHub.BorderSizePixel = 0
+PhantomHub.Position = UDim2.new(2.93666625, 0, 2.07411814, 0)
+PhantomHub.Size = UDim2.new(0, 389, 0, 352)
+PhantomHub.ZIndex = 2
+PhantomHub.Font = Enum.Font.GothamMedium
+PhantomHub.Text = ""
+PhantomHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+PhantomHub.TextScaled = true
+PhantomHub.TextSize = 14.000
+PhantomHub.TextWrapped = true
+PhantomHub.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
 end)
 
-ScreenGui_2.Parent = ScreenGui
-ScreenGui_2.Enabled = false
-ScreenGui_2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+UICorner_21.CornerRadius = UDim.new(0, 12)
+UICorner_21.Parent = PhantomHub
 
-TextButton_8.Parent = ScreenGui_2
-TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_8.BackgroundTransparency = 0.500
-TextButton_8.Position = UDim2.new(0, 0, 0.0758853331, 0)
-TextButton_8.Size = UDim2.new(0.0571725555, 0, 0.118279569, 0)
-TextButton_8.Font = Enum.Font.SourceSans
-TextButton_8.Text = "GGSH"
-TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_8.TextScaled = true
-TextButton_8.TextSize = 14.000
-TextButton_8.TextStrokeTransparency = 0.000
-TextButton_8.TextWrapped = true
+TextLabel_12.Parent = PhantomHub
+TextLabel_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_12.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_12.ZIndex = 2
+TextLabel_12.Font = Enum.Font.Nunito
+TextLabel_12.Text = "Phantom Hub"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
 
-local function HCAG_fake_script() -- ImageButton.LocalScript 
+RIP.Name = "RIP"
+RIP.Parent = ScrollingFrame_2
+RIP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RIP.BackgroundTransparency = 0.750
+RIP.BorderSizePixel = 0
+RIP.Position = UDim2.new(2.93666625, 0, 2.07411814, 0)
+RIP.Size = UDim2.new(0, 389, 0, 352)
+RIP.ZIndex = 2
+RIP.Font = Enum.Font.GothamMedium
+RIP.Text = ""
+RIP.TextColor3 = Color3.fromRGB(255, 255, 255)
+RIP.TextScaled = true
+RIP.TextSize = 14.000
+RIP.TextWrapped = true
+RIP.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AllScripts.lua"))()
+end)
+
+
+
+UICorner_22.CornerRadius = UDim.new(0, 12)
+UICorner_22.Parent = RIP
+
+TextLabel_13.Parent = RIP
+TextLabel_13.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_13.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_13.ZIndex = 2
+TextLabel_13.Font = Enum.Font.Nunito
+TextLabel_13.Text = "RIP"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 12)
+UICorner_23.Parent = Scripts_2
+
+ScriptsTab_2.Name = "ScriptsTab"
+ScriptsTab_2.Parent = Scripts_2
+ScriptsTab_2.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+ScriptsTab_2.BackgroundTransparency = 0.750
+ScriptsTab_2.BorderSizePixel = 0
+ScriptsTab_2.Position = UDim2.new(0.0199999996, 0, 0.0780000016, 0)
+ScriptsTab_2.Size = UDim2.new(0.461122811, 0, 0.0473729558, 0)
+ScriptsTab_2.ZIndex = 2
+ScriptsTab_2.Font = Enum.Font.GothamMedium
+ScriptsTab_2.Text = ""
+ScriptsTab_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsTab_2.TextScaled = true
+ScriptsTab_2.TextSize = 14.000
+ScriptsTab_2.TextWrapped = true
+
+UICorner_24.Parent = ScriptsTab_2
+
+TextLabel_14.Parent = ScriptsTab_2
+TextLabel_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.498451769, 0, 0.463746846, 0)
+TextLabel_14.Size = UDim2.new(0.996903658, 0, 0.990101218, 0)
+TextLabel_14.ZIndex = 2
+TextLabel_14.Font = Enum.Font.Nunito
+TextLabel_14.Text = "Scripts"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+UniversalTab_2.Name = "UniversalTab"
+UniversalTab_2.Parent = Scripts_2
+UniversalTab_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UniversalTab_2.BackgroundTransparency = 0.750
+UniversalTab_2.BorderSizePixel = 0
+UniversalTab_2.Position = UDim2.new(0.4967511, 0, 0.0776598752, 0)
+UniversalTab_2.Size = UDim2.new(0.461122811, 0, 0.0473729558, 0)
+UniversalTab_2.ZIndex = 2
+UniversalTab_2.Font = Enum.Font.GothamMedium
+UniversalTab_2.Text = ""
+UniversalTab_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UniversalTab_2.TextScaled = true
+UniversalTab_2.TextSize = 14.000
+UniversalTab_2.TextWrapped = true
+
+UICorner_25.Parent = UniversalTab_2
+
+TextLabel_15.Parent = UniversalTab_2
+TextLabel_15.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.497000009, 0, 0.463999987, 0)
+TextLabel_15.Size = UDim2.new(0.996903658, 0, 0.990101218, 0)
+TextLabel_15.ZIndex = 2
+TextLabel_15.Font = Enum.Font.Nunito
+TextLabel_15.Text = "Universal"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+
+
+local function RGQZ_fake_script() -- Minimized_2.LocalScript 
+	local script = Instance.new('LocalScript', Minimized_2)
+
+	script.Parent.TextLabel.Text = "GG\nSH"
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Scripts.Enabled = true
+	end)
+end
+coroutine.wrap(RGQZ_fake_script)()
+local function SRVOT_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.Enabled = false
-		script.Parent.Parent.Parent.Parent.ScreenGui.Enabled = true
+	    script.Parent.Parent.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Parent.Parent.Minimized.Enabled = true
 	end)
 end
-coroutine.wrap(HCAG_fake_script)()
-local function OPDXMZP_fake_script() -- TextButton_8.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_8)
+coroutine.wrap(SRVOT_fake_script)()
+local function NZFCJ_fake_script() -- ScriptsTab.LocalScript 
+	local script = Instance.new('LocalScript', ScriptsTab)
 
-	script.Parent.Text = "GG\nSH"
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Enabled = false
-		script.Parent.Parent.Parent.Enabled = true
+		script.Parent.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Parent.Scripts.Enabled = true
 	end)
 end
-coroutine.wrap(OPDXMZP_fake_script)()
+coroutine.wrap(NZFCJ_fake_script)()
+local function EFRVYLW_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	game:GetService("UserInputService").InputBegan:Connect(function()
+		if tonumber(script.Parent.Text) ~= nil then
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = tonumber(script.Parent.Text)
+		end
+	end)
+	
+end
+coroutine.wrap(EFRVYLW_fake_script)()
+local function NDYJRJR_fake_script() -- TextBox_2.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_2)
+
+	game:GetService("UserInputService").InputBegan:Connect(function()
+		if tonumber(script.Parent.Text) ~= nil then
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = tonumber(script.Parent.Text)
+		end
+	end)
+end
+coroutine.wrap(NDYJRJR_fake_script)()
+local function TQMPK_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local InfJumpBool = true
+	script.Parent.Enable.MouseButton1Click:Connect(function()
+		game:GetService("UserInputService").JumpRequest:Connect(function()
+			if InfJumpBool == true then
+				game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):ChangeState("Jumping")
+			end
+		end)
+	end)
+	
+	script.Parent.Disable.MouseButton1Click:Connect(function()
+		InfJumpBool = false
+	end)
+end
+coroutine.wrap(TQMPK_fake_script)()
+local function PUZXTMO_fake_script() -- XButton.LocalScript 
+	local script = Instance.new('LocalScript', XButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Parent.Parent.Minimized.Enabled = true
+	end)
+end
+coroutine.wrap(PUZXTMO_fake_script)()
+local function PMNMOI_fake_script() -- UniversalTab_2.LocalScript 
+	local script = Instance.new('LocalScript', UniversalTab_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Parent.Universal.Enabled = true
+	end)
+end
+coroutine.wrap(PMNMOI_fake_script)()
