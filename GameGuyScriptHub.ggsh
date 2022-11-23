@@ -1,0 +1,649 @@
+local GameGuyScriptHub = Instance.new("ScreenGui")
+local LoadingScreen = Instance.new("ScreenGui")
+local PopupWindow = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local LoadingText = Instance.new("TextLabel")
+local ScriptsWindow = Instance.new("ScreenGui")
+local ScriptsWindow_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local VGHub = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local SoggyWare = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local CatalystHub = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local RIP = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local FunkyFriday = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local LegendsOfSpeed = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Doors = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local MemesInBasement = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local AwesomeExplorer = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local PickADoor = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local MurderMystery2 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local Scripts = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Settings = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Watermark = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local MinimizedWindow = Instance.new("ScreenGui")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local SettingsWindow = Instance.new("ScreenGui")
+local SettingsWindow_2 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local Tabs_2 = Instance.new("Frame")
+local Scripts_2 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Settings_2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Watermark_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+
+GameGuyScriptHub.Name = "GameGuyScriptHub"
+GameGuyScriptHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+GameGuyScriptHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+LoadingScreen.Name = "LoadingScreen"
+LoadingScreen.Parent = GameGuyScriptHub
+LoadingScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+PopupWindow.Name = "PopupWindow"
+PopupWindow.Parent = LoadingScreen
+PopupWindow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PopupWindow.BackgroundTransparency = 1.000
+PopupWindow.BorderSizePixel = 0
+PopupWindow.Position = UDim2.new(0.378321439, 0, 0.346625775, 0)
+PopupWindow.Size = UDim2.new(0.243033051, 0, 0.344352633, 0)
+
+UICorner.CornerRadius = UDim.new(0, 50)
+UICorner.Parent = PopupWindow
+
+LoadingText.Name = "LoadingText"
+LoadingText.Parent = PopupWindow
+LoadingText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoadingText.BackgroundTransparency = 1.000
+LoadingText.Position = UDim2.new(0.0316666365, 0, 0.0483333468, 0)
+LoadingText.Size = UDim2.new(0.933333337, 0, 0.899999976, 0)
+LoadingText.Font = Enum.Font.FredokaOne
+LoadingText.Text = "GGSH Loading..."
+LoadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadingText.TextScaled = true
+LoadingText.TextSize = 14.000
+LoadingText.TextStrokeTransparency = 0.000
+LoadingText.TextTransparency = 1.000
+LoadingText.TextWrapped = true
+
+ScriptsWindow.Name = "ScriptsWindow"
+ScriptsWindow.Parent = GameGuyScriptHub
+ScriptsWindow.Enabled = false
+ScriptsWindow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScriptsWindow_2.Name = "ScriptsWindow"
+ScriptsWindow_2.Parent = ScriptsWindow
+ScriptsWindow_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsWindow_2.BackgroundTransparency = 0.500
+ScriptsWindow_2.Position = UDim2.new(0.256201208, 0, 0.154958665, 0)
+ScriptsWindow_2.Size = UDim2.new(0.486000001, 0, 0.68900001, 0)
+
+UICorner_2.CornerRadius = UDim.new(0, 25)
+UICorner_2.Parent = ScriptsWindow_2
+
+ScrollingFrame.Parent = ScriptsWindow_2
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0.0616666675, 0, 0.0949999988, 0)
+ScrollingFrame.Size = UDim2.new(0.875, 0, 0.8125, 0)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 1, 0)
+
+UIGridLayout.Parent = ScrollingFrame
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 35, 0, 20)
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = ScrollingFrame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BackgroundTransparency = 0.750
+InfiniteYield.Size = UDim2.new(0, 200, 0, 50)
+InfiniteYield.Font = Enum.Font.Nunito
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextSize = 40.000
+InfiniteYield.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 12)
+UICorner_3.Parent = InfiniteYield
+
+VGHub.Name = "VGHub"
+VGHub.Parent = ScrollingFrame
+VGHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+VGHub.BackgroundTransparency = 0.750
+VGHub.Size = UDim2.new(0, 200, 0, 50)
+VGHub.Font = Enum.Font.Nunito
+VGHub.Text = "V.G Hub"
+VGHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+VGHub.TextSize = 40.000
+VGHub.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 12)
+UICorner_4.Parent = VGHub
+
+SoggyWare.Name = "SoggyWare"
+SoggyWare.Parent = ScrollingFrame
+SoggyWare.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SoggyWare.BackgroundTransparency = 0.750
+SoggyWare.Size = UDim2.new(0, 200, 0, 50)
+SoggyWare.Font = Enum.Font.Nunito
+SoggyWare.Text = "SoggyWare"
+SoggyWare.TextColor3 = Color3.fromRGB(255, 255, 255)
+SoggyWare.TextSize = 40.000
+SoggyWare.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 12)
+UICorner_5.Parent = SoggyWare
+
+CatalystHub.Name = "CatalystHub"
+CatalystHub.Parent = ScrollingFrame
+CatalystHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CatalystHub.BackgroundTransparency = 0.750
+CatalystHub.Size = UDim2.new(0, 200, 0, 50)
+CatalystHub.Font = Enum.Font.Nunito
+CatalystHub.Text = "Catalyst Hub"
+CatalystHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+CatalystHub.TextScaled = true
+CatalystHub.TextSize = 40.000
+CatalystHub.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 12)
+UICorner_6.Parent = CatalystHub
+
+RIP.Name = "RIP"
+RIP.Parent = ScrollingFrame
+RIP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RIP.BackgroundTransparency = 0.750
+RIP.Size = UDim2.new(0, 200, 0, 50)
+RIP.Font = Enum.Font.Nunito
+RIP.Text = "RIP Scripts"
+RIP.TextColor3 = Color3.fromRGB(255, 255, 255)
+RIP.TextSize = 40.000
+RIP.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 12)
+UICorner_7.Parent = RIP
+
+FunkyFriday.Name = "FunkyFriday"
+FunkyFriday.Parent = ScrollingFrame
+FunkyFriday.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FunkyFriday.BackgroundTransparency = 0.750
+FunkyFriday.Size = UDim2.new(0, 200, 0, 50)
+FunkyFriday.Font = Enum.Font.Nunito
+FunkyFriday.Text = "Funky Friday"
+FunkyFriday.TextColor3 = Color3.fromRGB(255, 255, 255)
+FunkyFriday.TextSize = 40.000
+FunkyFriday.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 12)
+UICorner_8.Parent = FunkyFriday
+
+LegendsOfSpeed.Name = "LegendsOfSpeed"
+LegendsOfSpeed.Parent = ScrollingFrame
+LegendsOfSpeed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LegendsOfSpeed.BackgroundTransparency = 0.750
+LegendsOfSpeed.Size = UDim2.new(0, 200, 0, 50)
+LegendsOfSpeed.Font = Enum.Font.Nunito
+LegendsOfSpeed.Text = "Legends Of Speed"
+LegendsOfSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+LegendsOfSpeed.TextScaled = true
+LegendsOfSpeed.TextSize = 40.000
+LegendsOfSpeed.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 12)
+UICorner_9.Parent = LegendsOfSpeed
+
+Doors.Name = "Doors"
+Doors.Parent = ScrollingFrame
+Doors.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Doors.BackgroundTransparency = 0.750
+Doors.Size = UDim2.new(0, 200, 0, 50)
+Doors.Font = Enum.Font.Nunito
+Doors.Text = "DOORS 👁️"
+Doors.TextColor3 = Color3.fromRGB(255, 255, 255)
+Doors.TextScaled = true
+Doors.TextSize = 40.000
+Doors.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 12)
+UICorner_10.Parent = Doors
+
+MemesInBasement.Name = "MemesInBasement"
+MemesInBasement.Parent = ScrollingFrame
+MemesInBasement.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MemesInBasement.BackgroundTransparency = 0.750
+MemesInBasement.Size = UDim2.new(0, 200, 0, 50)
+MemesInBasement.Font = Enum.Font.Nunito
+MemesInBasement.Text = "Memes In Basement At 3 AM"
+MemesInBasement.TextColor3 = Color3.fromRGB(255, 255, 255)
+MemesInBasement.TextScaled = true
+MemesInBasement.TextSize = 40.000
+MemesInBasement.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 12)
+UICorner_11.Parent = MemesInBasement
+
+AwesomeExplorer.Name = "AwesomeExplorer"
+AwesomeExplorer.Parent = ScrollingFrame
+AwesomeExplorer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AwesomeExplorer.BackgroundTransparency = 0.750
+AwesomeExplorer.Size = UDim2.new(0, 200, 0, 50)
+AwesomeExplorer.Font = Enum.Font.Nunito
+AwesomeExplorer.Text = "Awesome Explorer"
+AwesomeExplorer.TextColor3 = Color3.fromRGB(255, 255, 255)
+AwesomeExplorer.TextScaled = true
+AwesomeExplorer.TextSize = 40.000
+AwesomeExplorer.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 12)
+UICorner_12.Parent = AwesomeExplorer
+
+PickADoor.Name = "PickADoor"
+PickADoor.Parent = ScrollingFrame
+PickADoor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PickADoor.BackgroundTransparency = 0.750
+PickADoor.Size = UDim2.new(0, 200, 0, 50)
+PickADoor.Font = Enum.Font.Nunito
+PickADoor.Text = "50/50 Pick A Door"
+PickADoor.TextColor3 = Color3.fromRGB(255, 255, 255)
+PickADoor.TextScaled = true
+PickADoor.TextSize = 40.000
+PickADoor.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 12)
+UICorner_13.Parent = PickADoor
+
+MurderMystery2.Name = "MurderMystery2"
+MurderMystery2.Parent = ScrollingFrame
+MurderMystery2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MurderMystery2.BackgroundTransparency = 0.750
+MurderMystery2.Size = UDim2.new(0, 200, 0, 50)
+MurderMystery2.Font = Enum.Font.Nunito
+MurderMystery2.Text = "Murder Mystery 2"
+MurderMystery2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MurderMystery2.TextScaled = true
+MurderMystery2.TextSize = 40.000
+MurderMystery2.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 12)
+UICorner_14.Parent = MurderMystery2
+
+Tabs.Name = "Tabs"
+Tabs.Parent = ScriptsWindow_2
+Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tabs.BackgroundTransparency = 1.000
+Tabs.Position = UDim2.new(0, 0, -0.0799999982, 0)
+Tabs.Size = UDim2.new(1, 0, 0.0799999982, 0)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Tabs
+Scripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BackgroundTransparency = 0.300
+Scripts.Position = UDim2.new(0.0570000187, 0, 0.0499999523, 0)
+Scripts.Size = UDim2.new(0.418333322, 0, 0.9375, 0)
+Scripts.Font = Enum.Font.Nunito
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.TextScaled = true
+Scripts.TextSize = 14.000
+Scripts.TextWrapped = true
+
+UICorner_15.Parent = Scripts
+
+Settings.Name = "Settings"
+Settings.Parent = Tabs
+Settings.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Settings.BackgroundTransparency = 0.500
+Settings.Position = UDim2.new(0.515333235, 0, 0.0499999523, 0)
+Settings.Size = UDim2.new(0.418333322, 0, 0.9375, 0)
+Settings.Font = Enum.Font.Nunito
+Settings.Text = "Settings"
+Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings.TextScaled = true
+Settings.TextSize = 14.000
+Settings.TextWrapped = true
+
+UICorner_16.Parent = Settings
+
+Watermark.Name = "Watermark"
+Watermark.Parent = ScriptsWindow_2
+Watermark.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Watermark.BackgroundTransparency = 0.500
+Watermark.Position = UDim2.new(0.370999992, 0, 1, 0)
+Watermark.Size = UDim2.new(0.25, 0, 0.075000003, 0)
+
+TextLabel.Parent = Watermark
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0.773333311, 0, 0.99999994, 0)
+TextLabel.Font = Enum.Font.Nunito
+TextLabel.Text = "GGSH"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Watermark
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.800000012, 0, -1.01725266e-06, 0)
+TextButton.Size = UDim2.new(0.200000003, 0, 0.99999994, 0)
+TextButton.Font = Enum.Font.Unknown
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_17.Parent = Watermark
+
+MinimizedWindow.Name = "MinimizedWindow"
+MinimizedWindow.Parent = GameGuyScriptHub
+MinimizedWindow.Enabled = false
+MinimizedWindow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextButton_2.Parent = MinimizedWindow
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BackgroundTransparency = 0.500
+TextButton_2.Position = UDim2.new(0, 0, 0.241046831, 0)
+TextButton_2.Size = UDim2.new(0.0972132161, 0, 0.185337767, 0)
+TextButton_2.Font = Enum.Font.Nunito
+TextButton_2.Text = "GGSH"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 75.000
+TextButton_2.TextStrokeTransparency = 0.000
+TextButton_2.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 12)
+UICorner_18.Parent = TextButton_2
+
+SettingsWindow.Name = "SettingsWindow"
+SettingsWindow.Parent = GameGuyScriptHub
+SettingsWindow.Enabled = false
+SettingsWindow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+SettingsWindow_2.Name = "SettingsWindow"
+SettingsWindow_2.Parent = SettingsWindow
+SettingsWindow_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SettingsWindow_2.BackgroundTransparency = 0.500
+SettingsWindow_2.Position = UDim2.new(0.256201208, 0, 0.154958665, 0)
+SettingsWindow_2.Size = UDim2.new(0.486066103, 0, 0.688705266, 0)
+
+UICorner_19.CornerRadius = UDim.new(0, 25)
+UICorner_19.Parent = SettingsWindow_2
+
+ScrollingFrame_2.Parent = SettingsWindow_2
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.Position = UDim2.new(0.0616666675, 0, 0.0949999988, 0)
+ScrollingFrame_2.Size = UDim2.new(0.875, 0, 0.8125, 0)
+ScrollingFrame_2.CanvasSize = UDim2.new(0, 0, 1, 0)
+
+UIGridLayout_2.Parent = ScrollingFrame_2
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellPadding = UDim2.new(0, 5, 0, 25)
+UIGridLayout_2.CellSize = UDim2.new(0, 500, 0, 75)
+
+Tabs_2.Name = "Tabs"
+Tabs_2.Parent = SettingsWindow_2
+Tabs_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tabs_2.BackgroundTransparency = 1.000
+Tabs_2.Position = UDim2.new(0, 0, -0.0799999982, 0)
+Tabs_2.Size = UDim2.new(1, 0, 0.0799999982, 0)
+
+Scripts_2.Name = "Scripts"
+Scripts_2.Parent = Tabs_2
+Scripts_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scripts_2.BackgroundTransparency = 0.500
+Scripts_2.Position = UDim2.new(0.0570000224, 0, 0.0499999523, 0)
+Scripts_2.Size = UDim2.new(0.418333322, 0, 0.9375, 0)
+Scripts_2.Font = Enum.Font.Nunito
+Scripts_2.Text = "Scripts"
+Scripts_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts_2.TextScaled = true
+Scripts_2.TextSize = 14.000
+Scripts_2.TextWrapped = true
+
+UICorner_20.Parent = Scripts_2
+
+Settings_2.Name = "Settings"
+Settings_2.Parent = Tabs_2
+Settings_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Settings_2.BackgroundTransparency = 0.300
+Settings_2.Position = UDim2.new(0.515333235, 0, 0.0499999523, 0)
+Settings_2.Size = UDim2.new(0.418333322, 0, 0.9375, 0)
+Settings_2.Font = Enum.Font.Nunito
+Settings_2.Text = "Settings"
+Settings_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings_2.TextScaled = true
+Settings_2.TextSize = 14.000
+Settings_2.TextWrapped = true
+
+UICorner_21.Parent = Settings_2
+
+Watermark_2.Name = "Watermark"
+Watermark_2.Parent = SettingsWindow_2
+Watermark_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Watermark_2.BackgroundTransparency = 0.500
+Watermark_2.Position = UDim2.new(0.370999992, 0, 1, 0)
+Watermark_2.Size = UDim2.new(0.25, 0, 0.075000003, 0)
+
+TextLabel_2.Parent = Watermark_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0.773333311, 0, 0.99999994, 0)
+TextLabel_2.Font = Enum.Font.Nunito
+TextLabel_2.Text = "GGSH"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextButton_3.Parent = Watermark_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.800000012, 0, -1.01725266e-06, 0)
+TextButton_3.Size = UDim2.new(0.200000003, 0, 0.99999994, 0)
+TextButton_3.Font = Enum.Font.Unknown
+TextButton_3.Text = "X"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_22.Parent = Watermark_2
+
+local function KKXZP_fake_script()
+	local script = Instance.new('LocalScript', PopupWindow)
+
+	local TweenService = game:GetService("TweenService")
+	local gui = game:GetService("Players").LocalPlayer.PlayerGui.GameGuyScriptHub
+	local object1 = gui.LoadingScreen.PopupWindow
+	local object2 = gui.LoadingScreen.PopupWindow.LoadingText
+	local targetTransparency1 = 0.5
+	local targetTransparency2 = 0
+	local tweenInfo = TweenInfo.new(2)
+	local tween1 = TweenService:Create(object1, tweenInfo, {BackgroundTransparency = targetTransparency1})
+	local tween2 = TweenService:Create(object2, tweenInfo, {TextTransparency = targetTransparency2})
+	tween1:Play()
+	tween2:Play()
+	task.wait(3)
+	script.Parent.Parent.Enabled = false
+	task.wait(1)
+	script.Parent.Parent.Parent.ScriptsWindow.Enabled = true
+end
+coroutine.wrap(KKXZP_fake_script)()
+local function ZDVX_fake_script()
+	local script = Instance.new('LocalScript', InfiniteYield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(ZDVX_fake_script)()
+local function MWUTJO_fake_script()
+	local script = Instance.new('LocalScript', VGHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(MWUTJO_fake_script)()
+local function BBGUN_fake_script()
+	local script = Instance.new('LocalScript', SoggyWare)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
+	end)
+end
+coroutine.wrap(BBGUN_fake_script)()
+local function ESQR_fake_script()
+	local script = Instance.new('LocalScript', CatalystHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local link, response = pcall(game.HttpGet, game, string.reverse'aul.niaM/ihcati/113vbuhretsam/lolytsed/moc.tnetnocresubuhtig.war//:sptth', true)
+		if not link then return error("Failed to access raw") end
+		local loads, err = coroutine.create(loadstring(response, '@desty#1821', '@GramxPersons#1111'))
+		if not loads then return error('Failed to load response') end
+		coroutine.resume(loads)
+	end)
+end
+coroutine.wrap(ESQR_fake_script)()
+local function TCURA_fake_script()
+	local script = Instance.new('LocalScript', RIP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AllScripts.lua"))()
+	end)
+end
+coroutine.wrap(TCURA_fake_script)()
+local function PCFAJYE_fake_script()
+	local script = Instance.new('LocalScript', FunkyFriday)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+	end)
+end
+coroutine.wrap(PCFAJYE_fake_script)()
+local function EERAAKA_fake_script()
+	local script = Instance.new('LocalScript', LegendsOfSpeed)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/legendsOfSpeed.lua"))()
+	end)
+end
+coroutine.wrap(EERAAKA_fake_script)()
+local function VAAHOR_fake_script()
+	local script = Instance.new('LocalScript', Doors)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+	end)
+end
+coroutine.wrap(VAAHOR_fake_script)()
+local function WOXD_fake_script()
+	local script = Instance.new('LocalScript', MemesInBasement)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/502Development/502Lua/main/games/makingmemesbasement.lua'))()
+	end)
+end
+coroutine.wrap(WOXD_fake_script)()
+local function BCHRFR_fake_script()
+	local script = Instance.new('LocalScript', AwesomeExplorer)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/awesome-explorer/main/source.lua"))()
+	end)
+end
+coroutine.wrap(BCHRFR_fake_script)()
+local function RNFCL_fake_script()
+	local script = Instance.new('LocalScript', PickADoor)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/050door"))()
+	end)
+end
+coroutine.wrap(RNFCL_fake_script)()
+local function QHQIRFH_fake_script()
+	local script = Instance.new('LocalScript', MurderMystery2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+	end)
+end
+coroutine.wrap(QHQIRFH_fake_script)()
+local function MLDO_fake_script()
+	local script = Instance.new('LocalScript', Settings)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Parent.Parent.SettingsWindow.Enabled = true
+	end)
+end
+coroutine.wrap(MLDO_fake_script)()
+local function DKUKDU_fake_script()
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Parent.Parent.MinimizedWindow.Enabled = true
+	end)
+end
+coroutine.wrap(DKUKDU_fake_script)()
+local function TWVUF_fake_script()
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ScriptsWindow.Enabled = true
+		script.Parent.Parent.Enabled = false
+	end)
+end
+coroutine.wrap(TWVUF_fake_script)()
+local function MKXH_fake_script()
+	local script = Instance.new('LocalScript', Scripts_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Parent.Parent.ScriptsWindow.Enabled = true
+	end)
+end
+coroutine.wrap(MKXH_fake_script)()
+local function YNVJJI_fake_script()
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Enabled = false
+		script.Parent.Parent.Parent.Parent.Parent.MinimizedWindow.Enabled = true
+	end)
+end
+coroutine.wrap(YNVJJI_fake_script)()
