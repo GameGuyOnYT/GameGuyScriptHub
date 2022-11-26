@@ -567,7 +567,7 @@ local function SUSSY_fake_script()
 	local script = Instance.new('LocalScript', ScamCallsFriend)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JusticeValley/shnigelutils/main/mainLoader.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/nxtcapi/iceware/main/loader.lua"))()
 	end)
 end
 coroutine.wrap(SUSSY_fake_script)()
