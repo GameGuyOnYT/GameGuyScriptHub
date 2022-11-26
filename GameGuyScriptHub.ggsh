@@ -26,6 +26,8 @@ local Doors = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
 local MemesInBasement = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
+local ScamCallsFriend = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
 local AwesomeExplorer = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
 local PickADoor = Instance.new("TextButton")
@@ -249,6 +251,21 @@ MemesInBasement.TextWrapped = true
 
 UICorner_11.CornerRadius = UDim.new(0, 12)
 UICorner_11.Parent = MemesInBasement
+
+ScamCallsFriend.Name = "ScamCallsFriend"
+ScamCallsFriend.Parent = ScrollingFrame
+ScamCallsFriend.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScamCallsFriend.BackgroundTransparency = 0.750
+ScamCallsFriend.Size = UDim2.new(0, 200, 0, 50)
+ScamCallsFriend.Font = Enum.Font.Nunito
+ScamCallsFriend.Text = "Scam To Save Best Friend"
+ScamCallsFriend.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScamCallsFriend.TextScaled = true
+ScamCallsFriend.TextSize = 40.000
+ScamCallsFriend.TextWrapped = true
+
+UICorner_25.CornerRadius = UDim.new(0, 12)
+UICorner_25.Parent = ScamCallsFriend
 
 AwesomeExplorer.Name = "AwesomeExplorer"
 AwesomeExplorer.Parent = ScrollingFrame
@@ -546,6 +563,14 @@ local function TCURA_fake_script()
 	end)
 end
 coroutine.wrap(TCURA_fake_script)()
+local function SUSSY_fake_script()
+	local script = Instance.new('LocalScript', ScamCallsFriend)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0makingscam"))()
+	end)
+end
+coroutine.wrap(SUSSY_fake_script)()
 local function PCFAJYE_fake_script()
 	local script = Instance.new('LocalScript', FunkyFriday)
 
