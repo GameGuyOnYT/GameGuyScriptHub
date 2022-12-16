@@ -237,6 +237,7 @@ Doors.TextColor3 = Color3.fromRGB(255, 255, 255)
 Doors.TextScaled = true
 Doors.TextSize = 40.000
 Doors.TextWrapped = true
+Doors.Modal = true
 
 UICorner_10.CornerRadius = UDim.new(0, 12)
 UICorner_10.Parent = Doors
