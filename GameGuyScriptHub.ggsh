@@ -27,39 +27,43 @@ local UICorner_10 = Instance.new("UICorner")
 local MemesInBasement = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local ScamCallsFriend = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
-local AwesomeExplorer = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
-local PickADoor = Instance.new("TextButton")
+local AwesomeExplorer = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
-local MurderMystery2 = Instance.new("TextButton")
+local PickADoor = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
-local Tabs = Instance.new("Frame")
-local Scripts = Instance.new("TextButton")
+local MurderMystery2 = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local Settings = Instance.new("TextButton")
+local DoorsBundle = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
+local CheeseEscape = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local Scripts = 8nstance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Settings = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
 local Watermark = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local MinimizedWindow = Instance.new("ScreenGui")
 local TextButton_2 = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local SettingsWindow = Instance.new("ScreenGui")
 local SettingsWindow_2 = Instance.new("Frame")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local ScrollingFrame_2 = Instance.new("ScrollingFrame")
 local UIGridLayout_2 = Instance.new("UIGridLayout")
 local Tabs_2 = Instance.new("Frame")
 local Scripts_2 = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local Settings_2 = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local Watermark_2 = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextButton_3 = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 
 GameGuyScriptHub.Name = "GameGuyScriptHub"
 GameGuyScriptHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -228,7 +232,7 @@ Doors.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Doors.BackgroundTransparency = 0.750
 Doors.Size = UDim2.new(0, 200, 0, 50)
 Doors.Font = Enum.Font.Nunito
-Doors.Text = "DOORS 👁️"
+Doors.Text = "DOORS👁️"
 Doors.TextColor3 = Color3.fromRGB(255, 255, 255)
 Doors.TextScaled = true
 Doors.TextSize = 40.000
@@ -264,8 +268,8 @@ ScamCallsFriend.TextScaled = true
 ScamCallsFriend.TextSize = 40.000
 ScamCallsFriend.TextWrapped = true
 
-UICorner_25.CornerRadius = UDim.new(0, 12)
-UICorner_25.Parent = ScamCallsFriend
+UICorner_12.CornerRadius = UDim.new(0, 12)
+UICorner_12.Parent = ScamCallsFriend
 
 AwesomeExplorer.Name = "AwesomeExplorer"
 AwesomeExplorer.Parent = ScrollingFrame
@@ -279,8 +283,8 @@ AwesomeExplorer.TextScaled = true
 AwesomeExplorer.TextSize = 40.000
 AwesomeExplorer.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0, 12)
-UICorner_12.Parent = AwesomeExplorer
+UICorner_13.CornerRadius = UDim.new(0, 12)
+UICorner_13.Parent = AwesomeExplorer
 
 PickADoor.Name = "PickADoor"
 PickADoor.Parent = ScrollingFrame
@@ -294,8 +298,8 @@ PickADoor.TextScaled = true
 PickADoor.TextSize = 40.000
 PickADoor.TextWrapped = true
 
-UICorner_13.CornerRadius = UDim.new(0, 12)
-UICorner_13.Parent = PickADoor
+UICorner_14.CornerRadius = UDim.new(0, 12)
+UICorner_14.Parent = PickADoor
 
 MurderMystery2.Name = "MurderMystery2"
 MurderMystery2.Parent = ScrollingFrame
@@ -309,8 +313,38 @@ MurderMystery2.TextScaled = true
 MurderMystery2.TextSize = 40.000
 MurderMystery2.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0, 12)
-UICorner_14.Parent = MurderMystery2
+UICorner_15.CornerRadius = UDim.new(0, 12)
+UICorner_15.Parent = MurderMystery2
+
+DoorsBundle.Name = "DoorsBundle"
+DoorsBundle.Parent = ScrollingFrame
+DoorsBundle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DoorsBundle.BackgroundTransparency = 0.750
+DoorsBundle.Size = UDim2.new(0, 200, 0, 50)
+DoorsBundle.Font = Enum.Font.Nunito
+DoorsBundle.Text = "DOORS👁️ Bundle"
+DoorsBundle.TextColor3 = Color3.fromRGB(255, 255, 255)
+DoorsBundle.TextScaled = true
+DoorsBundle.TextSize = 40.000
+DoorsBundle.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 12)
+UICorner_16.Parent = DoorsBundle
+
+CheeseEscape.Name = "CheeseEscape"
+CheeseEscape.Parent = ScrollingFrame
+CheeseEscape.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CheeseEscape.BackgroundTransparency = 0.750
+CheeseEscape.Size = UDim2.new(0, 200, 0, 50)
+CheeseEscape.Font = Enum.Font.Nunito
+CheeseEscape.Text = "Cheese Escape"
+CheeseEscape.TextColor3 = Color3.fromRGB(255, 255, 255)
+CheeseEscape.TextScaled = true
+CheeseEscape.TextSize = 40.000
+CheeseEscape.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 12)
+UICorner_17.Parent = CheeseEscape
 
 Tabs.Name = "Tabs"
 Tabs.Parent = ScriptsWindow_2
@@ -332,7 +366,7 @@ Scripts.TextScaled = true
 Scripts.TextSize = 14.000
 Scripts.TextWrapped = true
 
-UICorner_15.Parent = Scripts
+UICorner_18.Parent = Scripts
 
 Settings.Name = "Settings"
 Settings.Parent = Tabs
@@ -347,7 +381,7 @@ Settings.TextScaled = true
 Settings.TextSize = 14.000
 Settings.TextWrapped = true
 
-UICorner_16.Parent = Settings
+UICorner_19.Parent = Settings
 
 Watermark.Name = "Watermark"
 Watermark.Parent = ScriptsWindow_2
@@ -379,7 +413,7 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 
-UICorner_17.Parent = Watermark
+UICorner_20.Parent = Watermark
 
 MinimizedWindow.Name = "MinimizedWindow"
 MinimizedWindow.Parent = GameGuyScriptHub
@@ -399,8 +433,8 @@ TextButton_2.TextSize = 75.000
 TextButton_2.TextStrokeTransparency = 0.000
 TextButton_2.TextWrapped = true
 
-UICorner_18.CornerRadius = UDim.new(0, 12)
-UICorner_18.Parent = TextButton_2
+UICorner_21.CornerRadius = UDim.new(0, 12)
+UICorner_21.Parent = TextButton_2
 
 SettingsWindow.Name = "SettingsWindow"
 SettingsWindow.Parent = GameGuyScriptHub
@@ -414,8 +448,8 @@ SettingsWindow_2.BackgroundTransparency = 0.500
 SettingsWindow_2.Position = UDim2.new(0.256201208, 0, 0.154958665, 0)
 SettingsWindow_2.Size = UDim2.new(0.486066103, 0, 0.688705266, 0)
 
-UICorner_19.CornerRadius = UDim.new(0, 25)
-UICorner_19.Parent = SettingsWindow_2
+UICorner_22.CornerRadius = UDim.new(0, 25)
+UICorner_22.Parent = SettingsWindow_2
 
 ScrollingFrame_2.Parent = SettingsWindow_2
 ScrollingFrame_2.Active = true
@@ -450,7 +484,7 @@ Scripts_2.TextScaled = true
 Scripts_2.TextSize = 14.000
 Scripts_2.TextWrapped = true
 
-UICorner_20.Parent = Scripts_2
+UICorner_23.Parent = Scripts_2
 
 Settings_2.Name = "Settings"
 Settings_2.Parent = Tabs_2
@@ -465,7 +499,7 @@ Settings_2.TextScaled = true
 Settings_2.TextSize = 14.000
 Settings_2.TextWrapped = true
 
-UICorner_21.Parent = Settings_2
+UICorner_24.Parent = Settings_2
 
 Watermark_2.Name = "Watermark"
 Watermark_2.Parent = SettingsWindow_2
@@ -497,9 +531,9 @@ TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 
-UICorner_22.Parent = Watermark_2
+UICorner_25.Parent = Watermark_2
 
-local function KKXZP_fake_script()
+local function GGSHTWEENER_fake_script()
 	local script = Instance.new('LocalScript', PopupWindow)
 
 	local TweenService = game:GetService("TweenService")
@@ -518,116 +552,171 @@ local function KKXZP_fake_script()
 	task.wait(1)
 	script.Parent.Parent.Parent.ScriptsWindow.Enabled = true
 end
-coroutine.wrap(KKXZP_fake_script)()
-local function ZDVX_fake_script()
+coroutine.wrap(GGSHTWEENER_fake_script)()
+local function INFYIELD_fake_script()
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(ZDVX_fake_script)()
-local function MWUTJO_fake_script()
+coroutine.wrap(INFYIELD_fake_script)()
+local function VGHUB_fake_script()
 	local script = Instance.new('LocalScript', VGHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 	end)
 end
-coroutine.wrap(MWUTJO_fake_script)()
-local function BBGUN_fake_script()
+coroutine.wrap(VGHUB_fake_script)()
+local function SOGGYWARE_fake_script()
 	local script = Instance.new('LocalScript', SoggyWare)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
 	end)
 end
-coroutine.wrap(BBGUN_fake_script)()
-local function ESQR_fake_script()
+coroutine.wrap(SOGGYWARE_fake_script)()
+local function CATALYST_fake_script()
 	local script = Instance.new('LocalScript', CatalystHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		local link, response = pcall(game.HttpGet, game, string.reverse'aul.niaM/ihcati/113vbuhretsam/lolytsed/moc.tnetnocresubuhtig.war//:sptth', true)
-		if not link then return error("Failed to access raw") end
-		local loads, err = coroutine.create(loadstring(response, '@desty#1821', '@GramxPersons#1111'))
-		if not loads then return error('Failed to load response') end
-		coroutine.resume(loads)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
 	end)
 end
-coroutine.wrap(ESQR_fake_script)()
-local function TCURA_fake_script()
+coroutine.wrap(CATALYST_fake_script)()
+local function RIP_fake_script()
 	local script = Instance.new('LocalScript', RIP)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AllScripts.lua"))()
 	end)
 end
-coroutine.wrap(TCURA_fake_script)()
-local function SUSSY_fake_script()
+coroutine.wrap(RIP_fake_script)()
+local function SCAMCALL_fake_script()
 	local script = Instance.new('LocalScript', ScamCallsFriend)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/nxtcapi/iceware/main/games/scamcallgame"))()
 	end)
 end
-coroutine.wrap(SUSSY_fake_script)()
-local function PCFAJYE_fake_script()
+coroutine.wrap(SCAMCALL_fake_script)()
+local function FUNKYFRIDAY_fake_script()
 	local script = Instance.new('LocalScript', FunkyFriday)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
 	end)
 end
-coroutine.wrap(PCFAJYE_fake_script)()
-local function EERAAKA_fake_script()
+coroutine.wrap(FUNKYFRIDAY_fake_script)()
+local function LEGENDSOFSPEED_fake_script()
 	local script = Instance.new('LocalScript', LegendsOfSpeed)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/legendsOfSpeed.lua"))()
 	end)
 end
-coroutine.wrap(EERAAKA_fake_script)()
-local function VAAHOR_fake_script()
+coroutine.wrap(LEGENDSOFSPEED_fake_script)()
+local function DOORS_fake_script()
 	local script = Instance.new('LocalScript', Doors)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
 	end)
 end
-coroutine.wrap(VAAHOR_fake_script)()
-local function WOXD_fake_script()
+coroutine.wrap(DOORS_fake_script)()
+local function MEMESINBASEMENT_fake_script()
 	local script = Instance.new('LocalScript', MemesInBasement)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/502Development/502Lua/main/games/makingmemesbasement.lua'))()
 	end)
 end
-coroutine.wrap(WOXD_fake_script)()
-local function BCHRFR_fake_script()
+coroutine.wrap(MEMESINBASEMENT_fake_script)()
+local function AWESOME_fake_script()
 	local script = Instance.new('LocalScript', AwesomeExplorer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/awesome-explorer/main/source.lua"))()
 	end)
 end
-coroutine.wrap(BCHRFR_fake_script)()
-local function RNFCL_fake_script()
+coroutine.wrap(AWESOME_fake_script)()
+local function PICKADOOR_fake_script()
 	local script = Instance.new('LocalScript', PickADoor)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/050door"))()
 	end)
 end
-coroutine.wrap(RNFCL_fake_script)()
-local function QHQIRFH_fake_script()
+coroutine.wrap(PICKADOOR_fake_script)()
+local function MMTWO_fake_script()
 	local script = Instance.new('LocalScript', MurderMystery2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 	end)
 end
-coroutine.wrap(QHQIRFH_fake_script)()
-local function MLDO_fake_script()
+coroutine.wrap(MMTWO_fake_script)()
+local function DOORSBUNDLE_fake_script()
+	local script = Instance.new('LocalScript', DoorsBundle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+	end)
+end
+coroutine.wrap(DOORSBUNDLE_fake_script)()
+local function CHEESEESCAPE_fake_script()
+	local script = Instance.new('LocalScript', CheeseEscape)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nikita365/Cheese-Escape/main/Nikita", true))()
+
+		function addESP(part)
+			local partGui = Instance.new("BillboardGui", part)
+			partGui.Size = UDim2.new(3, 0, 3, 0)
+			partGui.AlwaysOnTop = true
+			partGui.Name = "PartESP"
+	
+			local frame = Instance.new("Frame", partGui)
+			frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			frame.BackgroundTransparency = 0.75
+			frame.Size = UDim2.new(3, 0, 3, 0)
+			frame.BorderSizePixel = 0
+	
+			local nameGui = Instance.new("BillboardGui", part)
+			nameGui.Size = UDim2.new(3, 0, 3, 0)
+			nameGui.AlwaysOnTop = true
+			nameGui.Name = "Name"
+	
+			local text = Instance.new("TextLabel", nameGui)
+			text.Text = part.Name .. " (" .. tostring(math.round((game.Workspace.efetuba48.HumanoidRootPart.Position - game.Workspace.Mouse.Mouse.Position).Magnitude)) .. " studs away)"
+			text.TextColor3 = Color3.fromRGB(255, 255, 255)
+			text.TextTransparency = 0.25
+			text.BackgroundTransparency = 1
+			text.TextScaled = true
+			text.Size = UDim2.new(3, 0, 3, 0)
+			text.Font = Enum.Font.Nunito
+			text.Name = "Text"
+			while task.wait() do
+				text.Text = part.Name .. " (" .. tostring(math.round((game.Workspace.efetuba48.HumanoidRootPart.Position - game.Workspace.Mouse.Mouse.Position).Magnitude)) .. " studs away)"
+			end
+		end
+
+		addESP(game.Workspace.Mouse.Mouse)
+	end)
+end
+coroutine.wrap(CHEESEESCAPE_fake_script)()
+local function GGSHONE_fake_script()
 	local script = Instance.new('LocalScript', Settings)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -635,8 +724,8 @@ local function MLDO_fake_script()
 		script.Parent.Parent.Parent.Parent.Parent.SettingsWindow.Enabled = true
 	end)
 end
-coroutine.wrap(MLDO_fake_script)()
-local function DKUKDU_fake_script()
+coroutine.wrap(GGSHONE_fake_script)()
+local function GGSHTWO_fake_script()
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -644,8 +733,8 @@ local function DKUKDU_fake_script()
 		script.Parent.Parent.Parent.Parent.Parent.MinimizedWindow.Enabled = true
 	end)
 end
-coroutine.wrap(DKUKDU_fake_script)()
-local function TWVUF_fake_script()
+coroutine.wrap(GGSHTWO_fake_script)()
+local function GGSHTHREE_fake_script()
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -653,8 +742,8 @@ local function TWVUF_fake_script()
 		script.Parent.Parent.Enabled = false
 	end)
 end
-coroutine.wrap(TWVUF_fake_script)()
-local function MKXH_fake_script()
+coroutine.wrap(GGSHTHREE_fake_script)()
+local function GGSHFOUR_fake_script()
 	local script = Instance.new('LocalScript', Scripts_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -662,8 +751,8 @@ local function MKXH_fake_script()
 		script.Parent.Parent.Parent.Parent.Parent.ScriptsWindow.Enabled = true
 	end)
 end
-coroutine.wrap(MKXH_fake_script)()
-local function YNVJJI_fake_script()
+coroutine.wrap(GGSHFOUR_fake_script)()
+local function GGSHFIVE_fake_script()
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -671,4 +760,4 @@ local function YNVJJI_fake_script()
 		script.Parent.Parent.Parent.Parent.Parent.MinimizedWindow.Enabled = true
 	end)
 end
-coroutine.wrap(YNVJJI_fake_script)()
+coroutine.wrap(GGSHFIVE_fake_script)()
