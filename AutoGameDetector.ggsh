@@ -1,0 +1,33 @@
+local bindable = Instance.new("BindableFunction")
+
+function bindable.onInvoke(response)
+  if response == "Yes" then
+    print("Yes")
+  elif response == "No" then
+    print("No")
+  else
+    print("Broken (" .. response .. " chosen)")
+  end
+end
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Universal Scripts",
+	Text = "Do you want the univeral scripts GUI to show up?",
+	Button1 = "Yes",
+  Button2 = "No",
+  Callback = true
+})
+
+if game.PlaceId == "5777099015" then
+   loadstring(game:HttpGet("https://rentry.org/ggsh-cheese_escape/raw"))()
+elif game.PlaceId == "142823291" then
+   loadstring(game:HttpGet("https://rentry.org/ggsh-mm2/raw"))()
+elif game.PlaceId == "6447798030" then
+   loadstring(game:HttpGet("https://rentry.org/ggsh-funky_friday/raw"))()
+elif game.PlaceId == "10679961467" then
+   loadstring(game:HttpGet("https://rentry.org/ggsh-pick_a_door/raw"))()
+elif game.PlaceId == "3101667897" then
+   loadstring(game:HttpGet("https://rentry.org/ggsh-legends_of_speed/raw"))()
+elif game.PlaceId == "11330149751" then
+   loadstring(game:HttpGet("https://rentry.org/ggsh-scam_call/raw"))()
+end
