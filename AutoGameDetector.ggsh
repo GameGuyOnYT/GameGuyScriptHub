@@ -1,10 +1,31 @@
 local bindable = Instance.new("BindableFunction")
+local bindable2 = Instance.new("BindableFunction")
 
 function bindable.OnInvoke(response)
 	if response == "Yes" then
 		print("Yes")
 	elseif response == "No" then
 		print("No")
+	else
+		print("Broken (" .. response .. " chosen)")
+	end
+end
+
+function bindable2.OnInvoke(response)
+	if response == "Bundle" then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+	elseif response == "Vynixius" then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
 	else
 		print("Broken (" .. response .. " chosen)")
 	end
@@ -19,15 +40,23 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 
 if game.PlaceId == "5777099015" then
-   loadstring(game:HttpGet("https://rentry.org/ggsh-cheese_escape/raw"))()
+	loadstring(game:HttpGet("https://rentry.org/ggsh-cheese_escape/raw"))()
 elseif game.PlaceId == "142823291" then
-   loadstring(game:HttpGet("https://rentry.org/ggsh-mm2/raw"))()
+	loadstring(game:HttpGet("https://rentry.org/ggsh-mm2/raw"))()
 elseif game.PlaceId == "6447798030" then
-   loadstring(game:HttpGet("https://rentry.org/ggsh-funky_friday/raw"))()
+	loadstring(game:HttpGet("https://rentry.org/ggsh-funky_friday/raw"))()
 elseif game.PlaceId == "10679961467" then
-   loadstring(game:HttpGet("https://rentry.org/ggsh-pick_a_door/raw"))()
+	loadstring(game:HttpGet("https://rentry.org/ggsh-pick_a_door/raw"))()
 elseif game.PlaceId == "3101667897" then
-   loadstring(game:HttpGet("https://rentry.org/ggsh-legends_of_speed/raw"))()
+	loadstring(game:HttpGet("https://rentry.org/ggsh-legends_of_speed/raw"))()
 elseif game.PlaceId == "11330149751" then
-   loadstring(game:HttpGet("https://rentry.org/ggsh-scam_call/raw"))()
+	loadstring(game:HttpGet("https://rentry.org/ggsh-scam_call/raw"))()
+elseif game.PlaceId == "6839171747" then
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "DOORS👁️",
+		Text = "Do you want the bundle or only the Vynixius GUI?",
+		Button1 = "Bundle",
+  		Button2 = "Vynixius",
+		Callback = bindable2
+	})
 end
