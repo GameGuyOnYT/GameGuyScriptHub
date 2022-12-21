@@ -64,6 +64,8 @@ local Watermark_2 = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextButton_3 = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
+local BeeSwarm = Instance.new("TextButton")
+local UICorner_31lol = Instance.new("UICorner")
 
 GameGuyScriptHub.Name = "GameGuyScriptHub"
 GameGuyScriptHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -345,6 +347,21 @@ CheeseEscape.TextWrapped = true
 
 UICorner_17.CornerRadius = UDim.new(0, 12)
 UICorner_17.Parent = CheeseEscape
+
+BeeSwarm.Name = "BeeSwarm"
+BeeSwarm.Parent = ScrollingFrame
+BeeSwarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BeeSwarm.BackgroundTransparency = 0.750
+BeeSwarm.Size = UDim2.new(0, 200, 0, 50)
+BeeSwarm.Font = Enum.Font.Nunito
+BeeSwarm.Text = "Bee Swarm Simulator"
+BeeSwarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+BeeSwarm.TextScaled = true
+BeeSwarm.TextSize = 40.000
+BeeSwarm.TextWrapped = true
+
+UICorner_31lol.CornerRadius = UDim.new(0, 12)
+UICorner_31lol.Parent = BeeSwarm
 
 Tabs.Name = "Tabs"
 Tabs.Parent = ScriptsWindow_2
@@ -716,6 +733,14 @@ local function CHEESEESCAPE_fake_script()
 	end)
 end
 coroutine.wrap(CHEESEESCAPE_fake_script)()
+local function BEESWARM_fake_script()
+	local script = Instance.new('LocalScript', BeeSwarm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebinp.com/raw/JUG2jkc8"))()
+	end)
+end
+coroutine.wrap(BEESWARM_fake_script)()
 local function GGSHONE_fake_script()
 	local script = Instance.new('LocalScript', Settings)
 
