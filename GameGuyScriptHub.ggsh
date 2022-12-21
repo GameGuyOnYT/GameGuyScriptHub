@@ -66,6 +66,8 @@ local TextButton_3 = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
 local BeeSwarm = Instance.new("TextButton")
 local UICorner_31lol = Instance.new("UICorner")
+local WSandJP = Instance.new("TextButton")
+local UICorner_69lol = Instance.new("UICorner")
 
 GameGuyScriptHub.Name = "GameGuyScriptHub"
 GameGuyScriptHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -362,6 +364,21 @@ BeeSwarm.TextWrapped = true
 
 UICorner_31lol.CornerRadius = UDim.new(0, 12)
 UICorner_31lol.Parent = BeeSwarm
+
+WSandJP.Name = "WSandJP"
+WSandJP.Parent = ScrollingFrame
+WSandJP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WSandJP.BackgroundTransparency = 0.750
+WSandJP.Size = UDim2.new(0, 200, 0, 50)
+WSandJP.Font = Enum.Font.Nunito
+WSandJP.Text = "WS and JP 100"
+WSandJP.TextColor3 = Color3.fromRGB(255, 255, 255)
+WSandJP.TextScaled = true
+WSandJP.TextSize = 40.000
+WSandJP.TextWrapped = true
+
+UICorner_69lol.CornerRadius = UDim.new(0, 12)
+UICorner_69lol.Parent = WSandJP
 
 Tabs.Name = "Tabs"
 Tabs.Parent = ScriptsWindow_2
@@ -741,6 +758,17 @@ local function BEESWARM_fake_script()
 	end)
 end
 coroutine.wrap(BEESWARM_fake_script)()
+local function WSANDJP_fake_script()
+	local script = Instance.new('LocalScript', WSandJP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		while task.wait(1) do
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+		end
+	end)
+end
+coroutine.wrap(WSANDJP_fake_script)()
 local function GGSHONE_fake_script()
 	local script = Instance.new('LocalScript', Settings)
 
