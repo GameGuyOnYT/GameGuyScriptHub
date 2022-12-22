@@ -787,7 +787,7 @@ local function WSANDJP_fake_script()
 end
 coroutine.wrap(WSANDJP_fake_script)()
 local function BLOXFRUITS_fake_script()
-	local script = Instance.new('LocalScript', WSandJP)
+	local script = Instance.new('LocalScript', BloxFruits)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		while task.wait(1) do
