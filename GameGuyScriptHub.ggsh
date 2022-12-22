@@ -68,6 +68,8 @@ local BeeSwarm = Instance.new("TextButton")
 local UICorner_31lol = Instance.new("UICorner")
 local WSandJP = Instance.new("TextButton")
 local UICorner_69lol = Instance.new("UICorner")
+local BloxFruits = Instance.new("TextButton")
+local UICorner_420lol = Instance.new("UICorner")
 
 GameGuyScriptHub.Name = "GameGuyScriptHub"
 GameGuyScriptHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -379,6 +381,21 @@ WSandJP.TextWrapped = true
 
 UICorner_69lol.CornerRadius = UDim.new(0, 12)
 UICorner_69lol.Parent = WSandJP
+
+BloxFruits.Name = "BloxFruits"
+BloxFruits.Parent = ScrollingFrame
+BloxFruits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BloxFruits.BackgroundTransparency = 0.750
+BloxFruits.Size = UDim2.new(0, 200, 0, 50)
+BloxFruits.Font = Enum.Font.Nunito
+BloxFruits.Text = "Blox Fruits"
+BloxFruits.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFruits.TextScaled = true
+BloxFruits.TextSize = 40.000
+BloxFruits.TextWrapped = true
+
+UICorner_420lol.CornerRadius = UDim.new(0, 12)
+UICorner_420lol.Parent = BloxFruits
 
 Tabs.Name = "Tabs"
 Tabs.Parent = ScriptsWindow_2
@@ -769,6 +786,16 @@ local function WSANDJP_fake_script()
 	end)
 end
 coroutine.wrap(WSANDJP_fake_script)()
+local function BLOXFRUITS_fake_script()
+	local script = Instance.new('LocalScript', WSandJP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		while task.wait(1) do
+			loadstring(game:HttpGet("https://rasputin-bf.glitch.me/bloxfruits.lua"))()
+		end
+	end)
+end
+coroutine.wrap(BLOXFRUITS_fake_script)()
 local function GGSHONE_fake_script()
 	local script = Instance.new('LocalScript', Settings)
 
