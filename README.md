@@ -6,6 +6,8 @@
 
 **GGSH V3:**   ![100%](https://progress-bar.dev/100/?title=no major updates)
 
+**Auto GGSH**             ![33%](https://progress-bar.dev/33/?title=on hold)
+
 **GGSH V4:**      ![66%](https://progress-bar.dev/66/?title=in development)
 
 **Current GGSH V4 Progress:**
