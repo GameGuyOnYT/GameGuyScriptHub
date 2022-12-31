@@ -6,13 +6,14 @@
 
 **GGSH V3:**   ![100%](https://progress-bar.dev/100/?title=no major updates)
 
-**GGSH V4:**      ![80%](https://progress-bar.dev/80/?title=in development)
+**GGSH V4:**      ![66%](https://progress-bar.dev/66/?title=in development)
 
 **Current GGSH V4 Progress:**
 - [x] Get Basic UI Working
 - [x] Import all scripts from V3
 - [x] Make code easier to read
 - [x] Implement config saving system
+- [ ] Add keybindable scripts
 - [ ] Add settings
 
 **GGSH V4** uses the Rayfield UI library to make your experience as good as possible.
