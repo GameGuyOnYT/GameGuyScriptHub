@@ -8,7 +8,7 @@
 
 **GGSH V4:**      ![80%](https://progress-bar.dev/80/?title=in development)
 
-Current GGSH V4 Progress:
+**Current GGSH V4 Progress:**
 - [x] Get Basic UI Working
 - [x] Import all scripts from V3
 - [x] Make code easier to read
