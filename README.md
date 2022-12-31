@@ -16,6 +16,8 @@
 - [ ] Add keybindable scripts
 - [ ] Add settings
 
+**Current Release Date (May get delayed because of school): 7th of February 19:00 UTC**
+
 **GGSH V4** uses the Rayfield UI library to make your experience as good as possible.
 - -----------------------------------------------------------------------------------
 My script hub! Started as an easy way for my friend to access Pet Simulator X scripts, grown into a full-fledged script hub!
