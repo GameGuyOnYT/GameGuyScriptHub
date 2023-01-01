@@ -6,7 +6,7 @@
 
 **GGSH V3:**   ![100%](https://progress-bar.dev/100/?title=no major updates)
 
-**GGSH V4:**      ![66%](https://progress-bar.dev/66/?title=in development)
+**GGSH V4:**      ![83%](https://progress-bar.dev/83/?title=in development)
 
 **Auto GGSH**             ![33%](https://progress-bar.dev/33/?title=on hold)
 
@@ -15,7 +15,7 @@
 - [x] Import all scripts from V3
 - [x] Make code easier to read
 - [x] Implement config saving system
-- [ ] Add keybindable scripts
+- [x] Add keybindable scripts
 - [ ] Add settings
 
 **Current Release Date (May get delayed because of school): 7th of February 19:00 UTC**
