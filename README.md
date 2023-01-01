@@ -6,7 +6,7 @@
 
 **GGSH V3:**   ![100%](https://progress-bar.dev/100/?title=no major updates)
 
-**GGSH V4:**      ![90%](https://progress-bar.dev/90/?title=in development)
+**GGSH V4:**      ![100%](https://progress-bar.dev/100/?title=releasing, please wait)
 
 **Auto GGSH**             ![33%](https://progress-bar.dev/33/?title=on hold)
 
@@ -16,7 +16,6 @@
 - [x] Make code easier to read
 - [x] Implement config saving system
 - [x] Add keybindable scripts
-- [ ] Add settings
 
 **Current Release Date (May get delayed because of school): 7th of February 19:00 UTC**
 
