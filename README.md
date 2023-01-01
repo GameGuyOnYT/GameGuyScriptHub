@@ -1,5 +1,11 @@
 # GameGuyScriptHub
-------------------------------------------------------------------------------------
+
+## SCRIPT LOADSTRING:
+### `loadstring(game:HttpGet("https://rentry.org/ggsh/raw"))()`
+
+My script hub! Started as an easy way for my friend to access Pet Simulator X scripts, grown into a full-fledged script hub!
+
+- ----------------------------------------------------------------------------------
 **GGSH V1:**            ![100%](https://progress-bar.dev/100/?title=deprecated)
 
 **GGSH V2:**            ![100%](https://progress-bar.dev/100/?title=deprecated)
@@ -10,17 +16,5 @@
 
 **Auto GGSH**             ![33%](https://progress-bar.dev/33/?title=on hold)
 
-**Current GGSH V4 Progress:**
-- [x] Get Basic UI Working
-- [x] Import all scripts from V3
-- [x] Make code easier to read
-- [x] Implement config saving system
-- [x] Add keybindable scripts
-
-**Current Release Date (May get delayed because of school): 7th of February 19:00 UTC**
-
 **GGSH V4** uses the Rayfield UI library to make your experience as good as possible.
 - -----------------------------------------------------------------------------------
-My script hub! Started as an easy way for my friend to access Pet Simulator X scripts, grown into a full-fledged script hub!
-## SCRIPT LOADSTRING:
-### `loadstring(game:HttpGet("https://rentry.org/ggsh/raw"))()`
