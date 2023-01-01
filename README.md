@@ -6,7 +6,7 @@
 
 **GGSH V3:**   ![100%](https://progress-bar.dev/100/?title=no major updates)
 
-**GGSH V4:**      ![100%](https://progress-bar.dev/100/?title=releasing, please wait)
+**GGSH V4:**      ![100%](https://progress-bar.dev/100/?title=released)
 
 **Auto GGSH**             ![33%](https://progress-bar.dev/33/?title=on hold)
 
