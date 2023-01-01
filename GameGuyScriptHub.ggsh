@@ -1,0 +1,511 @@
+--------------------------------------------------------------
+--                          Setup                           --
+--------------------------------------------------------------
+
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Library:CreateWindow({
+    Name = "GameGuyScriptHub",
+    LoadingTitle = "GGSH V4",
+    LoadingSubtitle = "using Rayfield UI library",
+    ConfigurationSaving = {
+        Enabled = true,
+        FileName = "GGSH"
+    },
+    Discord = {
+        Enabled = false,
+        Invite = "sirius",
+        RememberJoins = true
+    },
+    KeySystem = false
+})
+
+--------------------------------------------------------------
+--                     Notify Function                      --
+--------------------------------------------------------------
+
+function NotifyScriptLoading(buttonPressed)
+    Library:Notify({
+        Title = "Script Loading",
+        Content = buttonPressed .. " script is loading...",
+        Duration = 5,
+        Image = 4483362458,
+        Actions = {},
+    })
+end
+
+--------------------------------------------------------------
+--                      Tab Declaring                       --
+--------------------------------------------------------------
+
+local GamesTab = Window:CreateTab("Game Scripts")
+local HubTab = Window:CreateTab("Hub Scripts")
+local UniversalTab = Window:CreateTab("Universal Scripts")
+local KeybindsTab = Window:CreateTab("Keybind Scripts")
+local SettingsTab = Window:CreateTab("Settings")
+
+--------------------------------------------------------------
+--                       Hub Scripts                        --
+--------------------------------------------------------------
+
+local VGHub = HubTab:CreateButton({
+    Name = "V.G Hub",
+    Callback = function()
+        NotifyScriptLoading("V.G Hub")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    end,
+})
+
+local SoggyWare = HubTab:CreateButton({
+    Name = "SoggyWare",
+    Callback = function()
+        NotifyScriptLoading("SoggyWare")
+        loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
+    end,
+})
+
+local CatalystHub = HubTab:CreateButton({
+    Name = "Catalyst Hub",
+    Callback = function()
+        NotifyScriptLoading("Catalyst Hub")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
+    end,
+})
+
+local RIP = HubTab:CreateButton({
+    Name = "RIP",
+    Callback = function()
+        NotifyScriptLoading("RIP")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AllScripts.lua"))()
+    end,
+})
+
+--------------------------------------------------------------
+--                      Game Scripts                        --
+--------------------------------------------------------------
+
+local ScamCall = GamesTab:CreateButton({
+    Name = "making scam calls to save your best friend tycoon",
+    Callback = function()
+        NotifyScriptLoading("making scam calls to save your best friend tycoon")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/nxtcapi/iceware/main/games/scamcallgame"))()
+    end,
+})
+
+local FunkyFriday = GamesTab:CreateButton({
+    Name = "Funky Friday",
+    Callback = function()
+        NotifyScriptLoading("Funky Friday")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+    end,
+})
+
+local LegendsOfSpeed = GamesTab:CreateButton({
+    Name = "Legends Of Speed",
+    Callback = function()
+        NotifyScriptLoading("Legends Of Speed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/legendsOfSpeed.lua"))()
+    end,
+})
+
+local Doors = GamesTab:CreateButton({
+    Name = "DOORS",
+    Callback = function()
+        NotifyScriptLoading("DOORS")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+    end,
+})
+
+local MemesInBasement = GamesTab:CreateButton({
+    Name = "making memes in your basement at 3 AM tycoon",
+    Callback = function()
+        NotifyScriptLoading("making memes in your basement at 3 AM tycoon")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/502Development/502Lua/main/games/makingmemesbasement.lua'))()
+    end,
+})
+
+local PickADoor = GamesTab:CreateButton({
+    Name = "Pick A Door 50/50",
+    Callback = function()
+        NotifyScriptLoading("Pick A Door 50/50")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/050door"))()
+    end,
+})
+
+local MurderMysteryTwo = GamesTab:CreateButton({
+    Name = "Murder Mystery 2",
+    Callback = function()
+        NotifyScriptLoading("Murder Mystery 2")
+        loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+    end,
+})
+
+local DoorsBundle = GamesTab:CreateButton({
+    Name = "DOORS Bundle",
+    Callback = function()
+        NotifyScriptLoading("DOORS Bundle")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+    end,
+})
+
+local CheeseEscape = GamesTab:CreateButton({
+    Name = "Cheese Escape",
+    Callback = function()
+        NotifyScriptLoading("Cheese Escape")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nikita365/Cheese-Escape/main/Nikita", true))()
+
+		function addESP(part)
+			local partGui = Instance.new("BillboardGui", part)
+			partGui.Size = UDim2.new(3, 0, 3, 0)
+			partGui.AlwaysOnTop = true
+			partGui.Name = "PartESP"
+	
+			local frame = Instance.new("Frame", partGui)
+			frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			frame.BackgroundTransparency = 0.75
+			frame.Size = UDim2.new(3, 0, 3, 0)
+			frame.BorderSizePixel = 0
+	
+			local nameGui = Instance.new("BillboardGui", part)
+			nameGui.Size = UDim2.new(3, 0, 3, 0)
+			nameGui.AlwaysOnTop = true
+			nameGui.Name = "Name"
+	
+			local text = Instance.new("TextLabel", nameGui)
+			text.Text = part.Name .. " (" .. tostring(math.round((game.Workspace.efetuba48.HumanoidRootPart.Position - game.Workspace.Mouse.Mouse.Position).Magnitude)) .. " studs away)"
+			text.TextColor3 = Color3.fromRGB(255, 255, 255)
+			text.TextTransparency = 0.25
+			text.BackgroundTransparency = 1
+			text.TextScaled = true
+			text.Size = UDim2.new(3, 0, 3, 0)
+			text.Font = Enum.Font.Nunito
+			text.Name = "Text"
+			while task.wait() do
+				text.Text = part.Name .. " (" .. tostring(math.round((game.Workspace.efetuba48.HumanoidRootPart.Position - game.Workspace.Mouse.Mouse.Position).Magnitude)) .. " studs away)"
+			end
+		end
+
+		addESP(game.Workspace.Mouse.Mouse)
+    end,
+})
+
+
+local BeeSwarmSimulator = GamesTab:CreateButton({
+    Name = "Bee Swarm Simulator",
+    Callback = function()
+        NotifyScriptLoading("Bee Swarm Simulator")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain"))()
+    end,
+})
+
+--------------------------------------------------------------
+--                     Universal Scripts                    --
+--------------------------------------------------------------
+
+local InfiniteYield = UniversalTab:CreateButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        NotifyScriptLoading("Infinite Yield")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+})
+
+local AwesomeExplorer = UniversalTab:CreateButton({
+    Name = "Awesome Explorer",
+    Callback = function()
+        NotifyScriptLoading("Awesome Explorer")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/awesome-explorer/main/source.lua"))()
+    end,
+})
+
+local WalkSpeed = UniversalTab:CreateSlider({
+    Name = "Walk Speed",
+    Range = {0, 250},
+    Increment = 5,
+    Suffix = "WS",
+    CurrentValue = 0,
+    Flag = "WalkSpeed",
+    Callback = function(Value)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+    end,
+})
+
+local JumpPower = UniversalTab:CreateSlider({
+    Name = "Jump Power",
+    Range = {0, 250},
+    Increment = 5,
+    Suffix = "JP",
+    CurrentValue = 0,
+    Flag = "JumpPower",
+    Callback = function(Value)
+        game.Players.LocalPlayer.Character.Humanoid.UseJumpPower = true
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+    end,
+})
+
+local FOV = UniversalTab:CreateSlider({
+    Name = "FOV",
+    Range = {0, 120},
+    Increment = 5,
+    Suffix = "FOV",
+    CurrentValue = 0,
+    Flag = "FOV",
+    Callback = function(Value)
+        game.Workspace.Camera.FieldOfView = Value
+    end,
+})
+
+
+--------------------------------------------------------------
+--                     Keybind Scripts                      --
+--------------------------------------------------------------
+
+local RandomKeybindInformer = KeybindsTab:CreateParagraph({
+    Title = "Random Keybinds",
+    Content = "The keybinds are selected randomly by me, and you can change them."
+})
+
+local VGHubKeybind = KeybindsTab:CreateKeybind({
+    Name = "V.G Hub",
+    CurrentKeybind = "T",
+    HoldToInteract = false,
+    Flag = "VGHubKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("V.G Hub")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    end,
+})
+
+local SoggyWareKeybind = KeybindsTab:CreateKeybind({
+    Name = "SoggyWare",
+    CurrentKeybind = "Y",
+    HoldToInteract = false,
+    Flag = "SoggyWareKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("SoggyWare")
+        loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
+    end,
+})
+
+local CatalystHubKeybind = KeybindsTab:CreateKeybind({
+    Name = "Catalyst Hub",
+    CurrentKeybind = "U",
+    HoldToInteract = false,
+    Flag = "CatalystHubKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Catalyst Hub")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
+    end,
+})
+
+local RIPKeybind = KeybindsTab:CreateKeybind({
+    Name = "RIP",
+    CurrentKeybind = "I",
+    HoldToInteract = false,
+    Flag = "RIPKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("RIP")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AllScripts.lua"))()
+    end,
+})
+
+local ScamCallKeybind = KeybindsTab:CreateKeybind({
+    Name = "making scam calls to save your best friend tycoon",
+    CurrentKeybind = "O",
+    HoldToInteract = false,
+    Flag = "ScamCallKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("making scam calls to save your best friend tycoon")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/nxtcapi/iceware/main/games/scamcallgame"))()
+    end,
+})
+
+local FunkyFridayKeybind = KeybindsTab:CreateKeybind({
+    Name = "Funky Friday",
+    CurrentKeybind = "P",
+    HoldToInteract = false,
+    Flag = "FunkyFridayKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Funky Friday")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+    end,
+})
+
+local LegendsOfSpeedKeybind = KeybindsTab:CreateKeybind({
+    Name = "Legends Of Speed",
+    CurrentKeybind = "G",
+    HoldToInteract = false,
+    Flag = "LegendsOfSpeedKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Legends Of Speed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/legendsOfSpeed.lua"))()
+    end,
+})
+
+local DoorsKeybind = KeybindsTab:CreateKeybind({
+    Name = "DOORS",
+    CurrentKeybind = "H",
+    HoldToInteract = false,
+    Flag = "DoorsKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("DOORS")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+    end,
+})
+
+local MemesInBasementKeybind = KeybindsTab:CreateKeybind({
+    Name = "making memes in your basement at 3 AM tycoon",
+    CurrentKeybind = "J",
+    HoldToInteract = false,
+    Flag = "MemesInBasementKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("making memes in your basement at 3 AM tycoon")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/502Development/502Lua/main/games/makingmemesbasement.lua'))()
+    end,
+})
+
+local PickADoorKeybind = KeybindsTab:CreateKeybind({
+    Name = "Pick A Door 50/50",
+    CurrentKeybind = "K",
+    HoldToInteract = false,
+    Flag = "PickADoorKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Pick A Door 50/50")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/050door"))()
+    end,
+})
+
+local MurderMysteryTwoKeybind = KeybindsTab:CreateKeybind({
+    Name = "Murder Mystery 2",
+    CurrentKeybind = "L",
+    HoldToInteract = false,
+    Flag = "MurderMysteryTwoKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Murder Mystery 2")
+        loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+    end,
+})
+
+local DoorsBundleKeybind = KeybindsTab:CreateKeybind({
+    Name = "DOORS Bundle",
+    CurrentKeybind = "Z",
+    HoldToInteract = false,
+    Flag = "DoorsBundleKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("DOORS Bundle")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+    end,
+})
+
+local CheeseEscapeKeybind = KeybindsTab:CreateKeybind({
+    Name = "Cheese Escape",
+    CurrentKeybind = "X",
+    HoldToInteract = false,
+    Flag = "CheeseEscapeKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Cheese Escape")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nikita365/Cheese-Escape/main/Nikita", true))()
+
+		function addESP(part)
+			local partGui = Instance.new("BillboardGui", part)
+			partGui.Size = UDim2.new(3, 0, 3, 0)
+			partGui.AlwaysOnTop = true
+			partGui.Name = "PartESP"
+	
+			local frame = Instance.new("Frame", partGui)
+			frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			frame.BackgroundTransparency = 0.75
+			frame.Size = UDim2.new(3, 0, 3, 0)
+			frame.BorderSizePixel = 0
+	
+			local nameGui = Instance.new("BillboardGui", part)
+			nameGui.Size = UDim2.new(3, 0, 3, 0)
+			nameGui.AlwaysOnTop = true
+			nameGui.Name = "Name"
+	
+			local text = Instance.new("TextLabel", nameGui)
+			text.Text = part.Name .. " (" .. tostring(math.round((game.Workspace.efetuba48.HumanoidRootPart.Position - game.Workspace.Mouse.Mouse.Position).Magnitude)) .. " studs away)"
+			text.TextColor3 = Color3.fromRGB(255, 255, 255)
+			text.TextTransparency = 0.25
+			text.BackgroundTransparency = 1
+			text.TextScaled = true
+			text.Size = UDim2.new(3, 0, 3, 0)
+			text.Font = Enum.Font.Nunito
+			text.Name = "Text"
+			while task.wait() do
+				text.Text = part.Name .. " (" .. tostring(math.round((game.Workspace.efetuba48.HumanoidRootPart.Position - game.Workspace.Mouse.Mouse.Position).Magnitude)) .. " studs away)"
+			end
+		end
+
+		addESP(game.Workspace.Mouse.Mouse)
+    end,
+})
+
+
+local BeeSwarmSimulatorKeybind = KeybindsTab:CreateKeybind({
+    Name = "Bee Swarm Simulator",
+    CurrentKeybind = "V",
+    HoldToInteract = false,
+    Flag = "BeeSwarmSimulatorKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Bee Swarm Simulator")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain"))()
+    end,
+})
+
+local InfiniteYieldKeybind = KeybindsTab:CreateKeybind({
+    Name = "Infinite Yield",
+    CurrentKeybind = "B",
+    HoldToInteract = false,
+    Flag = "InfiniteYieldKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Infinite Yield")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+})
+
+local AwesomeExplorerKeybind = KeybindsTab:CreateKeybind({
+    Name = "Awesome Explorer",
+    CurrentKeybind = "N",
+    HoldToInteract = false,
+    Flag = "AwesomeExplorerKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Awesome Explorer")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/awesome-explorer/main/source.lua"))()
+    end,
+})
+
+--------------------------------------------------------------
+--                        Settings                          --
+--------------------------------------------------------------
+
+local WindowColorPicker = SettingsTab:CreateColorPicker({
+    Name = "Window Color Picker (doesn't work yet)",
+    Color = Color3.fromRGB(25, 25, 25),
+    Flag = "WindowColorPicker",
+    Callback = function(Value)
+        print(Color3.fromRGB(Value))
+    end
+})
+
+Library:LoadConfiguration()
