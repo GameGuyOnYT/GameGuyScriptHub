@@ -204,7 +204,7 @@ local BeeSwarmSimulator = GamesTab:CreateButton({
     Name = "Bee Swarm Simulator",
     Callback = function()
         NotifyScriptLoading("Bee Swarm Simulator")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/games/bss.lua"))()
     end,
 })
 
@@ -469,7 +469,7 @@ local BeeSwarmSimulatorKeybind = KeybindsTab:CreateKeybind({
     Flag = "BeeSwarmSimulatorKeybind",
     Callback = function(Keybind)
         NotifyScriptLoading("Bee Swarm Simulator")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/games/bss.lua"))()
     end,
 })
 
