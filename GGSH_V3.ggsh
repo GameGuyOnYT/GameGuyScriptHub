@@ -754,7 +754,7 @@ local function BEESWARM_fake_script()
 	local script = Instance.new('LocalScript', BeeSwarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/games/bss.lua"))()
 	end)
 end
 coroutine.wrap(BEESWARM_fake_script)()
