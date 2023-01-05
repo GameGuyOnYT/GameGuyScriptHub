@@ -70,7 +70,7 @@ local WSandJP = Instance.new("TextButton")
 local UICorner_69lol = Instance.new("UICorner")
 
 GameGuyScriptHub.Name = "GameGuyScriptHub"
-GameGuyScriptHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+GameGuyScriptHub.Parent = game.CoreGui
 GameGuyScriptHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 LoadingScreen.Name = "LoadingScreen"
@@ -571,7 +571,7 @@ local function GGSHTWEENER_fake_script()
 	local script = Instance.new('LocalScript', PopupWindow)
 
 	local TweenService = game:GetService("TweenService")
-	local gui = game:GetService("Players").LocalPlayer.PlayerGui.GameGuyScriptHub
+	local gui = game.CoreGui.GameGuyScriptHub
 	local object1 = gui.LoadingScreen.PopupWindow
 	local object2 = gui.LoadingScreen.PopupWindow.LoadingText
 	local targetTransparency1 = 0.5
