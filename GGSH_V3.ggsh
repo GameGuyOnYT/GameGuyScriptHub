@@ -68,6 +68,8 @@ local BeeSwarm = Instance.new("TextButton")
 local UICorner_31lol = Instance.new("UICorner")
 local WSandJP = Instance.new("TextButton")
 local UICorner_69lol = Instance.new("UICorner")
+local BloxFruits = Instance.new("TextButton")
+local UICorner_420lol = Instance.new("UICorner")
 
 GameGuyScriptHub.Name = "GameGuyScriptHub"
 GameGuyScriptHub.Parent = game.CoreGui
@@ -380,6 +382,21 @@ WSandJP.TextWrapped = true
 UICorner_69lol.CornerRadius = UDim.new(0, 12)
 UICorner_69lol.Parent = WSandJP
 
+BloxFruits.Name = "BloxFruits"
+BloxFruits.Parent = ScrollingFrame
+BloxFruits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BloxFruits.BackgroundTransparency = 0.750
+BloxFruits.Size = UDim2.new(0, 200, 0, 50)
+BloxFruits.Font = Enum.Font.Nunito
+BloxFruits.Text = "Blox Fruits"
+BloxFruits.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFruits.TextScaled = true
+BloxFruits.TextSize = 40.000
+BloxFruits.TextWrapped = true
+
+UICorner_420lol.CornerRadius = UDim.new(0, 12)
+UICorner_420lol.Parent = BloxFruits
+
 Tabs.Name = "Tabs"
 Tabs.Parent = ScriptsWindow_2
 Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -587,6 +604,7 @@ local function GGSHTWEENER_fake_script()
 	script.Parent.Parent.Parent.ScriptsWindow.Enabled = true
 end
 coroutine.wrap(GGSHTWEENER_fake_script)()
+
 local function INFYIELD_fake_script()
 	local script = Instance.new('LocalScript', InfiniteYield)
 
@@ -595,6 +613,7 @@ local function INFYIELD_fake_script()
 	end)
 end
 coroutine.wrap(INFYIELD_fake_script)()
+
 local function VGHUB_fake_script()
 	local script = Instance.new('LocalScript', VGHub)
 
@@ -603,6 +622,7 @@ local function VGHUB_fake_script()
 	end)
 end
 coroutine.wrap(VGHUB_fake_script)()
+
 local function SOGGYWARE_fake_script()
 	local script = Instance.new('LocalScript', SoggyWare)
 
@@ -611,6 +631,7 @@ local function SOGGYWARE_fake_script()
 	end)
 end
 coroutine.wrap(SOGGYWARE_fake_script)()
+
 local function CATALYST_fake_script()
 	local script = Instance.new('LocalScript', CatalystHub)
 
@@ -619,6 +640,7 @@ local function CATALYST_fake_script()
 	end)
 end
 coroutine.wrap(CATALYST_fake_script)()
+
 local function RIP_fake_script()
 	local script = Instance.new('LocalScript', RIP)
 
@@ -627,6 +649,7 @@ local function RIP_fake_script()
 	end)
 end
 coroutine.wrap(RIP_fake_script)()
+
 local function SCAMCALL_fake_script()
 	local script = Instance.new('LocalScript', ScamCallsFriend)
 
@@ -635,6 +658,7 @@ local function SCAMCALL_fake_script()
 	end)
 end
 coroutine.wrap(SCAMCALL_fake_script)()
+
 local function FUNKYFRIDAY_fake_script()
 	local script = Instance.new('LocalScript', FunkyFriday)
 
@@ -643,6 +667,7 @@ local function FUNKYFRIDAY_fake_script()
 	end)
 end
 coroutine.wrap(FUNKYFRIDAY_fake_script)()
+
 local function LEGENDSOFSPEED_fake_script()
 	local script = Instance.new('LocalScript', LegendsOfSpeed)
 
@@ -651,6 +676,7 @@ local function LEGENDSOFSPEED_fake_script()
 	end)
 end
 coroutine.wrap(LEGENDSOFSPEED_fake_script)()
+
 local function DOORS_fake_script()
 	local script = Instance.new('LocalScript', Doors)
 
@@ -659,6 +685,7 @@ local function DOORS_fake_script()
 	end)
 end
 coroutine.wrap(DOORS_fake_script)()
+
 local function MEMESINBASEMENT_fake_script()
 	local script = Instance.new('LocalScript', MemesInBasement)
 
@@ -667,6 +694,7 @@ local function MEMESINBASEMENT_fake_script()
 	end)
 end
 coroutine.wrap(MEMESINBASEMENT_fake_script)()
+
 local function AWESOME_fake_script()
 	local script = Instance.new('LocalScript', AwesomeExplorer)
 
@@ -675,6 +703,7 @@ local function AWESOME_fake_script()
 	end)
 end
 coroutine.wrap(AWESOME_fake_script)()
+
 local function PICKADOOR_fake_script()
 	local script = Instance.new('LocalScript', PickADoor)
 
@@ -683,6 +712,7 @@ local function PICKADOOR_fake_script()
 	end)
 end
 coroutine.wrap(PICKADOOR_fake_script)()
+
 local function MMTWO_fake_script()
 	local script = Instance.new('LocalScript', MurderMystery2)
 
@@ -691,6 +721,7 @@ local function MMTWO_fake_script()
 	end)
 end
 coroutine.wrap(MMTWO_fake_script)()
+
 local function DOORSBUNDLE_fake_script()
 	local script = Instance.new('LocalScript', DoorsBundle)
 
@@ -709,6 +740,7 @@ local function DOORSBUNDLE_fake_script()
 	end)
 end
 coroutine.wrap(DOORSBUNDLE_fake_script)()
+
 local function CHEESEESCAPE_fake_script()
 	local script = Instance.new('LocalScript', CheeseEscape)
 
@@ -750,6 +782,7 @@ local function CHEESEESCAPE_fake_script()
 	end)
 end
 coroutine.wrap(CHEESEESCAPE_fake_script)()
+
 local function BEESWARM_fake_script()
 	local script = Instance.new('LocalScript', BeeSwarm)
 
@@ -758,6 +791,7 @@ local function BEESWARM_fake_script()
 	end)
 end
 coroutine.wrap(BEESWARM_fake_script)()
+
 local function WSANDJP_fake_script()
 	local script = Instance.new('LocalScript', WSandJP)
 
@@ -769,6 +803,16 @@ local function WSANDJP_fake_script()
 	end)
 end
 coroutine.wrap(WSANDJP_fake_script)()
+
+local function BLOXFRUITS_fake_script()
+	local script = Instance.new('LocalScript', BloxFruits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'))()
+	end)
+end
+coroutine.wrap(BLOXFRUITS_fake_script)()
+
 local function GGSHONE_fake_script()
 	local script = Instance.new('LocalScript', Settings)
 
@@ -778,6 +822,7 @@ local function GGSHONE_fake_script()
 	end)
 end
 coroutine.wrap(GGSHONE_fake_script)()
+
 local function GGSHTWO_fake_script()
 	local script = Instance.new('LocalScript', TextButton)
 
@@ -787,6 +832,7 @@ local function GGSHTWO_fake_script()
 	end)
 end
 coroutine.wrap(GGSHTWO_fake_script)()
+
 local function GGSHTHREE_fake_script()
 	local script = Instance.new('LocalScript', TextButton_2)
 
@@ -796,6 +842,7 @@ local function GGSHTHREE_fake_script()
 	end)
 end
 coroutine.wrap(GGSHTHREE_fake_script)()
+
 local function GGSHFOUR_fake_script()
 	local script = Instance.new('LocalScript', Scripts_2)
 
@@ -805,6 +852,7 @@ local function GGSHFOUR_fake_script()
 	end)
 end
 coroutine.wrap(GGSHFOUR_fake_script)()
+
 local function GGSHFIVE_fake_script()
 	local script = Instance.new('LocalScript', TextButton_3)
 
