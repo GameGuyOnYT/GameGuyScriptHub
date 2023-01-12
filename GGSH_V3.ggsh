@@ -808,7 +808,8 @@ local function BLOXFRUITS_fake_script()
 	local script = Instance.new('LocalScript', BloxFruits)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'))()
+		-- loadstring(game:HttpGet('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 	end)
 end
 coroutine.wrap(BLOXFRUITS_fake_script)()
