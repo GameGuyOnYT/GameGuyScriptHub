@@ -9,7 +9,7 @@
 My script hub! Started as an easy way for my friend to access Pet Simulator X scripts, grown into a full-fledged script hub!
 
 - ----------------------------------------------------------------------------------
-**GGSH V1:**            ![100%](https://progress-bar.dev/100/?title=deleted)
+**GGSH V1:**                  ![100%](https://progress-bar.dev/100/?title=deleted)
 
 **GGSH V2:**            ![100%](https://progress-bar.dev/100/?title=deprecated)
 
