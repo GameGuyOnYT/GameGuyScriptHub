@@ -24,6 +24,4 @@ My script hub! Started as an easy way for my friend to access Pet Simulator X sc
 **GGSH V4:**               ![100%](https://progress-bar.dev/100/?title=released)
 
 **Auto GGSH**             ![33%](https://progress-bar.dev/33/?title=on hold)
-
-**GGSH V4** uses the Rayfield UI library to make your experience as good as possible.
 - -----------------------------------------------------------------------------------
