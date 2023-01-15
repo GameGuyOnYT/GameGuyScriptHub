@@ -208,6 +208,14 @@ local BeeSwarmSimulator = GamesTab:CreateButton({
     end,
 })
 
+local BloxFruits = GamesTab:CreateButton({
+    Name = "Blox Fruits",
+    Callback = function()
+        NotifyScriptLoading("Blox Fruits")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+    end,
+})
+
 --------------------------------------------------------------
 --                     Universal Scripts                    --
 --------------------------------------------------------------
@@ -473,9 +481,20 @@ local BeeSwarmSimulatorKeybind = KeybindsTab:CreateKeybind({
     end,
 })
 
+local BloxFruitsKeybind = KeybindsTab:CreateKeybind({
+    Name = "Blox Fruits",
+    CurrentKeybind = "B",
+    HoldToInteract = false,
+    Flag = "BloxFruitsKeybind",
+    Callback = function(Keybind)
+        NotifyScriptLoading("Blox Fruits")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+    end,
+})
+
 local InfiniteYieldKeybind = KeybindsTab:CreateKeybind({
     Name = "Infinite Yield",
-    CurrentKeybind = "B",
+    CurrentKeybind = "N",
     HoldToInteract = false,
     Flag = "InfiniteYieldKeybind",
     Callback = function(Keybind)
@@ -486,7 +505,7 @@ local InfiniteYieldKeybind = KeybindsTab:CreateKeybind({
 
 local DexExplorerKeybind = KeybindsTab:CreateKeybind({
     Name = "Dex Explorer",
-    CurrentKeybind = "N",
+    CurrentKeybind = "M",
     HoldToInteract = false,
     Flag = "DexExplorerKeybind",
     Callback = function(Keybind)
