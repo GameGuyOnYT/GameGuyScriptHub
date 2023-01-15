@@ -220,11 +220,11 @@ local InfiniteYield = UniversalTab:CreateButton({
     end,
 })
 
-local AwesomeExplorer = UniversalTab:CreateButton({
-    Name = "Awesome Explorer",
+local DexExplorer = UniversalTab:CreateButton({
+    Name = "Dex Explorer",
     Callback = function()
-        NotifyScriptLoading("Awesome Explorer")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/awesome-explorer/main/source.lua"))()
+        NotifyScriptLoading("Dex Explorer")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/peyton2465/Dex/master/out.lua"))()
     end,
 })
 
@@ -484,14 +484,14 @@ local InfiniteYieldKeybind = KeybindsTab:CreateKeybind({
     end,
 })
 
-local AwesomeExplorerKeybind = KeybindsTab:CreateKeybind({
-    Name = "Awesome Explorer",
+local DexExplorerKeybind = KeybindsTab:CreateKeybind({
+    Name = "Dex Explorer",
     CurrentKeybind = "N",
     HoldToInteract = false,
-    Flag = "AwesomeExplorerKeybind",
+    Flag = "DexExplorerKeybind",
     Callback = function(Keybind)
-        NotifyScriptLoading("Awesome Explorer")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/awesome-explorer/main/source.lua"))()
+        NotifyScriptLoading("Dex Explorer")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/peyton2465/Dex/master/out.lua"))()
     end,
 })
 
