@@ -2,7 +2,7 @@
 
 __! IMPORTANT !__
 
- V4 and V3 will be developed in parallel, but if I want to do V5 (which I will probably do), V4 will probably be deprecated since I don't really like it and V3 will get most (except keybinds) new features in V4 and V3 will get renamed to GGSH Classic ()
+ V4 and V3 will be developed in parallel, but if I want to do V5 (which I will probably do), V4 will probably be deprecated since I don't really like it and V3 will get most (except keybinds) new features in V4 and V3 will get renamed to GGSH Classic (name WIP)
 
 
 
