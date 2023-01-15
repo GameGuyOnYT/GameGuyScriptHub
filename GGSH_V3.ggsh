@@ -24,7 +24,7 @@ local MemesInBasement = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local ScamCallsFriend = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
-local AwesomeExplorer = Instance.new("TextButton")
+local DexExplorer = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local PickADoor = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
@@ -243,20 +243,20 @@ ScamCallsFriend.TextWrapped = true
 UICorner_12.CornerRadius = UDim.new(0, 12)
 UICorner_12.Parent = ScamCallsFriend
 
-AwesomeExplorer.Name = "AwesomeExplorer"
-AwesomeExplorer.Parent = ScrollingFrame
-AwesomeExplorer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-AwesomeExplorer.BackgroundTransparency = 0.750
-AwesomeExplorer.Size = UDim2.new(0, 200, 0, 50)
-AwesomeExplorer.Font = Enum.Font.Nunito
-AwesomeExplorer.Text = "Awesome Explorer"
-AwesomeExplorer.TextColor3 = Color3.fromRGB(255, 255, 255)
-AwesomeExplorer.TextScaled = true
-AwesomeExplorer.TextSize = 40.000
-AwesomeExplorer.TextWrapped = true
+DexExplorer.Name = "DexExplorer"
+DexExplorer.Parent = ScrollingFrame
+DexExplorer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DexExplorer.BackgroundTransparency = 0.750
+DexExplorer.Size = UDim2.new(0, 200, 0, 50)
+DexExplorer.Font = Enum.Font.Nunito
+DexExplorer.Text = "Dex Explorer (wait 5s)"
+DexExplorer.TextColor3 = Color3.fromRGB(255, 255, 255)
+DexExplorer.TextScaled = true
+DexExplorer.TextSize = 40.000
+DexExplorer.TextWrapped = true
 
 UICorner_13.CornerRadius = UDim.new(0, 12)
-UICorner_13.Parent = AwesomeExplorer
+UICorner_13.Parent = DexExplorer
 
 PickADoor.Name = "PickADoor"
 PickADoor.Parent = ScrollingFrame
@@ -640,14 +640,14 @@ local function MEMESINBASEMENT_fake_script()
 end
 coroutine.wrap(MEMESINBASEMENT_fake_script)()
 
-local function AWESOME_fake_script()
-	local script = Instance.new('LocalScript', AwesomeExplorer)
+local function DEX_fake_script()
+	local script = Instance.new('LocalScript', DexExplorer)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/awesome-explorer/main/source.lua"))()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))()
 	end)
 end
-coroutine.wrap(AWESOME_fake_script)()
+coroutine.wrap(DEX_fake_script)()
 
 local function PICKADOOR_fake_script()
 	local script = Instance.new('LocalScript', PickADoor)
