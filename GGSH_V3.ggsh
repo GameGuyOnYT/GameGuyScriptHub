@@ -1,8 +1,4 @@
 local GameGuyScriptHub = Instance.new("ScreenGui")
-local LoadingScreen = Instance.new("ScreenGui")
-local PopupWindow = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local LoadingText = Instance.new("TextLabel")
 local ScriptsWindow = Instance.new("ScreenGui")
 local ScriptsWindow_2 = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
@@ -75,39 +71,9 @@ GameGuyScriptHub.Name = "GameGuyScriptHub"
 GameGuyScriptHub.Parent = game.CoreGui
 GameGuyScriptHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-LoadingScreen.Name = "LoadingScreen"
-LoadingScreen.Parent = GameGuyScriptHub
-LoadingScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-PopupWindow.Name = "PopupWindow"
-PopupWindow.Parent = LoadingScreen
-PopupWindow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-PopupWindow.BackgroundTransparency = 1.000
-PopupWindow.BorderSizePixel = 0
-PopupWindow.Position = UDim2.new(0.378321439, 0, 0.346625775, 0)
-PopupWindow.Size = UDim2.new(0.243033051, 0, 0.344352633, 0)
-
-UICorner.CornerRadius = UDim.new(0, 50)
-UICorner.Parent = PopupWindow
-
-LoadingText.Name = "LoadingText"
-LoadingText.Parent = PopupWindow
-LoadingText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LoadingText.BackgroundTransparency = 1.000
-LoadingText.Position = UDim2.new(0.0316666365, 0, 0.0483333468, 0)
-LoadingText.Size = UDim2.new(0.933333337, 0, 0.899999976, 0)
-LoadingText.Font = Enum.Font.FredokaOne
-LoadingText.Text = "GGSH Loading..."
-LoadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
-LoadingText.TextScaled = true
-LoadingText.TextSize = 14.000
-LoadingText.TextStrokeTransparency = 0.000
-LoadingText.TextTransparency = 1.000
-LoadingText.TextWrapped = true
-
 ScriptsWindow.Name = "ScriptsWindow"
 ScriptsWindow.Parent = GameGuyScriptHub
-ScriptsWindow.Enabled = false
+ScriptsWindow.Enabled = true
 ScriptsWindow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 ScriptsWindow_2.Name = "ScriptsWindow"
@@ -583,27 +549,6 @@ TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 
 UICorner_25.Parent = Watermark_2
-
-local function GGSHTWEENER_fake_script()
-	local script = Instance.new('LocalScript', PopupWindow)
-
-	local TweenService = game:GetService("TweenService")
-	local gui = game.CoreGui.GameGuyScriptHub
-	local object1 = gui.LoadingScreen.PopupWindow
-	local object2 = gui.LoadingScreen.PopupWindow.LoadingText
-	local targetTransparency1 = 0.5
-	local targetTransparency2 = 0
-	local tweenInfo = TweenInfo.new(2)
-	local tween1 = TweenService:Create(object1, tweenInfo, {BackgroundTransparency = targetTransparency1})
-	local tween2 = TweenService:Create(object2, tweenInfo, {TextTransparency = targetTransparency2})
-	tween1:Play()
-	tween2:Play()
-	task.wait(3)
-	script.Parent.Parent.Enabled = false
-	task.wait(1)
-	script.Parent.Parent.Parent.ScriptsWindow.Enabled = true
-end
-coroutine.wrap(GGSHTWEENER_fake_script)()
 
 local function INFYIELD_fake_script()
 	local script = Instance.new('LocalScript', InfiniteYield)
