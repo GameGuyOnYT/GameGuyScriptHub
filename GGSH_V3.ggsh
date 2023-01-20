@@ -66,6 +66,8 @@ local WSandJP = Instance.new("TextButton")
 local UICorner_69lol = Instance.new("UICorner")
 local BloxFruits = Instance.new("TextButton")
 local UICorner_420lol = Instance.new("UICorner")
+local FishingSim = Instance.new("TextButton")
+local UICorner_310lol = Instance.new("UICorner")
 
 GameGuyScriptHub.Name = "GameGuyScriptHub"
 GameGuyScriptHub.Parent = game.CoreGui
@@ -362,6 +364,21 @@ BloxFruits.TextWrapped = true
 
 UICorner_420lol.CornerRadius = UDim.new(0, 12)
 UICorner_420lol.Parent = BloxFruits
+
+FishingSim.Name = "FishingSim"
+FishingSim.Parent = ScrollingFrame
+FishingSim.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FishingSim.BackgroundTransparency = 0.750
+FishingSim.Size = UDim2.new(0, 200, 0, 50)
+FishingSim.Font = Enum.Font.Nunito
+FishingSim.Text = "Fishing Simulator"
+FishingSim.TextColor3 = Color3.fromRGB(255, 255, 255)
+FishingSim.TextScaled = true
+FishingSim.TextSize = 40.000
+FishingSim.TextWrapped = true
+
+UICorner_310lol.CornerRadius = UDim.new(0, 12)
+UICorner_310lol.Parent = FishingSim
 
 Tabs.Name = "Tabs"
 Tabs.Parent = ScriptsWindow_2
@@ -762,6 +779,15 @@ local function BLOXFRUITS_fake_script()
 	end)
 end
 coroutine.wrap(BLOXFRUITS_fake_script)()
+
+local function FISHINGSIM_fake_script()
+	local script = Instance.new('LocalScript', FishingSim)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/reddythedev/Reddy-Hub/main/_Loader'))()
+	end)
+end
+coroutine.wrap(FISHINGSIM_fake_script)()
 
 local function GGSHONE_fake_script()
 	local script = Instance.new('LocalScript', Settings)
