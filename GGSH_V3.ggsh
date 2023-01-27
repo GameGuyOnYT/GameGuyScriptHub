@@ -66,8 +66,6 @@ local WSandJP = Instance.new("TextButton")
 local UICorner_69lol = Instance.new("UICorner")
 local BloxFruits = Instance.new("TextButton")
 local UICorner_420lol = Instance.new("UICorner")
-local BloxFruitsEnergy = Instance.new("TextButton")
-local UICorner_690lol = Instance.new("UICorner")
 local FishingSim = Instance.new("TextButton")
 local UICorner_310lol = Instance.new("UICorner")
 
@@ -367,21 +365,6 @@ BloxFruits.TextWrapped = true
 UICorner_420lol.CornerRadius = UDim.new(0, 12)
 UICorner_420lol.Parent = BloxFruits
 
-BloxFruitsEnergy.Name = "BloxFruitsEnergy"
-BloxFruitsEnergy.Parent = ScrollingFrame
-BloxFruitsEnergy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-BloxFruitsEnergy.BackgroundTransparency = 0.750
-BloxFruitsEnergy.Size = UDim2.new(0, 200, 0, 50)
-BloxFruitsEnergy.Font = Enum.Font.Nunito
-BloxFruitsEnergy.Text = "Blox Fruits Infinite Energy"
-BloxFruitsEnergy.TextColor3 = Color3.fromRGB(255, 255, 255)
-BloxFruitsEnergy.TextScaled = true
-BloxFruitsEnergy.TextSize = 40.000
-BloxFruitsEnergy.TextWrapped = true
-
-UICorner_690lol.CornerRadius = UDim.new(0, 12)
-UICorner_690lol.Parent = BloxFruitsEnergy
-
 FishingSim.Name = "FishingSim"
 FishingSim.Parent = ScrollingFrame
 FishingSim.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -584,124 +567,124 @@ TextButton_3.TextWrapped = true
 
 UICorner_25.Parent = Watermark_2
 
-local function Infinite Yield()
+local function INFYIELD_fake_script()
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(Infinite Yield)()
+coroutine.wrap(INFYIELD_fake_script)()
 
-local function VG Hub()
+local function VGHUB_fake_script()
 	local script = Instance.new('LocalScript', VGHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 	end)
 end
-coroutine.wrap(VG Hub)()
+coroutine.wrap(VGHUB_fake_script)()
 
-local function SoggyWare ()
+local function SOGGYWARE_fake_script()
 	local script = Instance.new('LocalScript', SoggyWare)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
 	end)
 end
-coroutine.wrap(SoggyWare )()
+coroutine.wrap(SOGGYWARE_fake_script)()
 
-local function Catalyst Hub()
+local function CATALYST_fake_script()
 	local script = Instance.new('LocalScript', CatalystHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
 	end)
 end
-coroutine.wrap(Catalyst Hub)()
+coroutine.wrap(CATALYST_fake_script)()
 
-local function RIP Scripts()
+local function RIP_fake_script()
 	local script = Instance.new('LocalScript', RIP)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AllScripts.lua"))()
 	end)
 end
-coroutine.wrap(RIP Scripts)()
+coroutine.wrap(RIP_fake_script)()
 
-local function making scam calls to save your best friend tycoon()
+local function SCAMCALL_fake_script()
 	local script = Instance.new('LocalScript', ScamCallsFriend)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/nxtcapi/iceware/main/games/scamcallgame"))()
 	end)
 end
-coroutine.wrap(making scam calls to save your best friend tycoon)()
+coroutine.wrap(SCAMCALL_fake_script)()
 
-local function Funky Friday()
+local function FUNKYFRIDAY_fake_script()
 	local script = Instance.new('LocalScript', FunkyFriday)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
 	end)
 end
-coroutine.wrap(Funky Friday)()
+coroutine.wrap(FUNKYFRIDAY_fake_script)()
 
-local function Legends Of Speed()
+local function LEGENDSOFSPEED_fake_script()
 	local script = Instance.new('LocalScript', LegendsOfSpeed)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GameGuyOnYT/GameGuyScriptHub/GameGuyScriptHub/legendsOfSpeed.lua"))()
 	end)
 end
-coroutine.wrap(Legends Of Speed)()
+coroutine.wrap(LEGENDSOFSPEED_fake_script)()
 
-local function DOORS👁️()
+local function DOORS_fake_script()
 	local script = Instance.new('LocalScript', Doors)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
 	end)
 end
-coroutine.wrap(DOORS👁️)()
+coroutine.wrap(DOORS_fake_script)()
 
-local function making memes in your basement at 3 AM tycoon()
+local function MEMESINBASEMENT_fake_script()
 	local script = Instance.new('LocalScript', MemesInBasement)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/502Development/502Lua/main/games/makingmemesbasement.lua'))()
 	end)
 end
-coroutine.wrap(making memes in your basement at 3 AM tycoon)()
+coroutine.wrap(MEMESINBASEMENT_fake_script)()
 
-local function Dex Explorer()
+local function DEX_fake_script()
 	local script = Instance.new('LocalScript', DexExplorer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/peyton2465/Dex/master/out.lua"))()
 	end)
 end
-coroutine.wrap(Dex Explorer)()
+coroutine.wrap(DEX_fake_script)()
 
-local function Pick A Door 50/50()
+local function PICKADOOR_fake_script()
 	local script = Instance.new('LocalScript', PickADoor)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/050door"))()
 	end)
 end
-coroutine.wrap(Pick A Door 50/50)()
+coroutine.wrap(PICKADOOR_fake_script)()
 
-local function Murder Mystery 2()
+local function MMTWO_fake_script()
 	local script = Instance.new('LocalScript', MurderMystery2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 	end)
 end
-coroutine.wrap(Murder Mystery 2)()
+coroutine.wrap(MMTWO_fake_script)()
 
-local function DOORS👁️ Bundle()
+local function DOORSBUNDLE_fake_script()
 	local script = Instance.new('LocalScript', DoorsBundle)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -718,9 +701,9 @@ local function DOORS👁️ Bundle()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
 	end)
 end
-coroutine.wrap(Doors👁️ Bundle)()
+coroutine.wrap(DOORSBUNDLE_fake_script)()
 
-local function Cheese Escape()
+local function CHEESEESCAPE_fake_script()
 	local script = Instance.new('LocalScript', CheeseEscape)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -760,60 +743,53 @@ local function Cheese Escape()
 		addESP(game.Workspace.Mouse.Mouse)
 	end)
 end
-coroutine.wrap(Cheese Escape)()
+coroutine.wrap(CHEESEESCAPE_fake_script)()
 
-local function Bee Swarm Simulator()
+local function BEESWARM_fake_script()
 	local script = Instance.new('LocalScript', BeeSwarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/games/bss.lua"))()
 	end)
 end
-coroutine.wrap(Bee Swarm Simulator)()
+coroutine.wrap(BEESWARM_fake_script)()
 
-local function WS and JP()
+local function WSANDJP_fake_script()
 	local script = Instance.new('LocalScript', WSandJP)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		while task.wait(0.2) do
+		while task.wait(1) do
 			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
 		end
 	end)
 end
-coroutine.wrap(WS and JP)()
+coroutine.wrap(WSANDJP_fake_script)()
 
-local function Blox Fruits_()
+local function BLOXFRUITS_fake_script()
 	local script = Instance.new('LocalScript', BloxFruits)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
-	end)
-end
-coroutine.wrap(Blox Fruits)()
-
-local function Blox Fruits Energy()
-	local script = Instance.new('LocalScript', BloxFruitsEnergy)
-
-	script.Parent.MouseButton1Click:Connect(function()
+		
 		game.Players.LocalPlayer.Character.Energy.MaxValue = 999999
 		while task.wait() do
 			game.Players.LocalPlayer.Character.Energy.Value = 999999
 		end
 	end)
 end
-coroutine.wrap(Blox Fruits Energy)()
+coroutine.wrap(BLOXFRUITS_fake_script)()
 
-local function Fishing Simulator()
+local function FISHINGSIM_fake_script()
 	local script = Instance.new('LocalScript', FishingSim)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/reddythedev/Reddy-Hub/main/_Loader'))()
 	end)
 end
-coroutine.wrap(Fishing Simulator)()
+coroutine.wrap(FISHINGSIM_fake_script)()
 
-local function GGSH Script 1()
+local function GGSHONE_fake_script()
 	local script = Instance.new('LocalScript', Settings)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -821,9 +797,9 @@ local function GGSH Script 1()
 		script.Parent.Parent.Parent.Parent.Parent.SettingsWindow.Enabled = true
 	end)
 end
-coroutine.wrap(GGSH Script 1)()
+coroutine.wrap(GGSHONE_fake_script)()
 
-local function GGSH Script 2()
+local function GGSHTWO_fake_script()
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -831,9 +807,9 @@ local function GGSH Script 2()
 		script.Parent.Parent.Parent.Parent.Parent.MinimizedWindow.Enabled = true
 	end)
 end
-coroutine.wrap(GGSH Script 2)()
+coroutine.wrap(GGSHTWO_fake_script)()
 
-local function GGSH Script 3()
+local function GGSHTHREE_fake_script()
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -841,9 +817,9 @@ local function GGSH Script 3()
 		script.Parent.Parent.Enabled = false
 	end)
 end
-coroutine.wrap(GGSH Script 3)()
+coroutine.wrap(GGSHTHREE_fake_script)()
 
-local function GGSH Script 4()
+local function GGSHFOUR_fake_script()
 	local script = Instance.new('LocalScript', Scripts_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -851,9 +827,9 @@ local function GGSH Script 4()
 		script.Parent.Parent.Parent.Parent.Parent.ScriptsWindow.Enabled = true
 	end)
 end
-coroutine.wrap(GGSH Script 4)()
+coroutine.wrap(GGSHFOUR_fake_script)()
 
-local function GGSH Script 5()
+local function GGSHFIVE_fake_script()
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -861,4 +837,4 @@ local function GGSH Script 5()
 		script.Parent.Parent.Parent.Parent.Parent.MinimizedWindow.Enabled = true
 	end)
 end
-coroutine.wrap(GGSH Script 5)()
+coroutine.wrap(GGSHFIVE_fake_script)()
