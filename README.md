@@ -19,9 +19,9 @@ My script hub! Started as an easy way for my friend to access Pet Simulator X sc
 
 **GGSH V2:**            ![100%](https://progress-bar.dev/100/?title=deprecated)
 
-**GGSH V3:**   ![100%](https://progress-bar.dev/100/?title=current version)
+**GGSH V3:**    ![100%](https://progress-bar.dev/100/?title=current version)
 
-**GGSH V4:**               ![100%](https://progress-bar.dev/100/?title=deprecated)
+**GGSH V4:**            ![100%](https://progress-bar.dev/100/?title=deprecated)
 
 **Auto GGSH**             ![33%](https://progress-bar.dev/33/?title=on hold)
 - -----------------------------------------------------------------------------------
