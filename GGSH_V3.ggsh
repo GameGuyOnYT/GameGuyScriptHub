@@ -68,6 +68,8 @@ local BloxFruits = Instance.new("TextButton")
 local UICorner_420lol = Instance.new("UICorner")
 local FishingSim = Instance.new("TextButton")
 local UICorner_310lol = Instance.new("UICorner")
+local CreaturesOfSonaria = Instance.new("TextButton")
+local UICorner_lollol = Instance.new("UICorner")
 
 GameGuyScriptHub.Name = "GameGuyScriptHub"
 GameGuyScriptHub.Parent = game.CoreGui
@@ -379,6 +381,22 @@ FishingSim.TextWrapped = true
 
 UICorner_310lol.CornerRadius = UDim.new(0, 12)
 UICorner_310lol.Parent = FishingSim
+
+CreaturesOfSonaria.Name = "CreaturesOfSonaria"
+CreaturesOfSonaria.Parent = ScrollingFrame
+CreaturesOfSonaria.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CreaturesOfSonaria.BackgroundTransparency = 0.750
+CreaturesOfSonaria.Size = UDim2.new(0, 200, 0, 50)
+CreaturesOfSonaria.Font = Enum.Font.Nunito
+CreaturesOfSonaria.Text = "Creatures Of Sus (Aholai)"
+CreaturesOfSonaria.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreaturesOfSonaria.TextScaled = true
+CreaturesOfSonaria.TextSize = 40.000
+CreaturesOfSonaria.TextWrapped = true
+
+UICorner_lollol.CornerRadius = UDim.new(0, 12)
+UICorner_lollol.Parent = CreaturesOfSonaria
+
 
 Tabs.Name = "Tabs"
 Tabs.Parent = ScriptsWindow_2
@@ -788,6 +806,27 @@ local function FISHINGSIM_fake_script()
 	end)
 end
 coroutine.wrap(FISHINGSIM_fake_script)()
+
+local function CREATURES_fake_script()
+	local script = Instance.new('LocalScript', CreaturesOfSonaria)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		LocalA = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart
+		game:GetService('TweenService'):Create(LocalA, TweenInfo.new(2), {CFrame = CFrame.new(1549.22729, 700.416565, -2285.98071)}):Play()
+
+		while wait(10) do
+			local Remote = game.Players.LocalPlayer['RemoteEvent']
+
+			local Arguments = {
+       				[1] = "drink",
+       				[2] = Workspace.Water.Model.Part
+			}
+
+			Remote:FireServer(unpack(Arguments))
+		end
+	end)
+end
+coroutine.wrap(CREATURES_fake_script)()
 
 local function GGSHONE_fake_script()
 	local script = Instance.new('LocalScript', Settings)
