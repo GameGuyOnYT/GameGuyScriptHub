@@ -15,7 +15,7 @@ My script hub! Started as an easy way for my friend to access Pet Simulator X sc
 ### GGSH V2 Script: `loadstring(game:HttpGet("https://rentry.org/ggsh-v2/raw"))()`
 
 - ----------------------------------------------------------------------------------
-**GGSH V1:**                  ![100%](https://progress-bar.dev/100/?title=deleted)
+**GGSH V1:**                  ![100%](https://progress-bar.dev/100/?title=deprecated)
 
 **GGSH V2:**            ![100%](https://progress-bar.dev/100/?title=deprecated)
 
